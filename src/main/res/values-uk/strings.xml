@@ -227,36 +227,36 @@
     <string name="main_market_nomarket_msg">Function not available.  There does not appear to be a market application installed on your device.</string>
     <string name="menu_help">說明</string>
     <string name="menu_send_debug_data">傳送錯誤報告</string>    
-    <string name="menu_send_debug_data_dlg_title">Send Error Report Using:</string>
-    <string name="menu_send_debug_data_subject">GSam Labs - Battery Monitor - Error Report</string>  
-    <string name="menu_send_debug_data_body">Please enter a description of the problem you encountered:\n\n</string> 
-    <string name="menu_review">Review GSam Battery Monitor</string>
-    <string name="menu_enable_more_stats">Enable More Stats</string>
-    <string name="main_share_intentchoosertitle">Share my average battery life\u2026</string>
-    <string name="main_share_subject">Average Battery Life - GSam Battery Monitor</string>
+    <string name="menu_send_debug_data_dlg_title">傳送錯誤報告使用：</string>
+    <string name="menu_send_debug_data_subject">GSam Labs - 電池監測器 - 錯誤報告</string>  
+    <string name="menu_send_debug_data_body">請輸入您所遇到問題的描述：\n\n</string> 
+    <string name="menu_review">評論 GSam Battery Monitor</string>
+    <string name="menu_enable_more_stats">啟用更多統計資料</string>
+    <string name="main_share_intentchoosertitle">分享我的平均電池壽命\u2026</string>
+    <string name="main_share_subject">平均電池壽命 - GSam Battery Monitor</string>
     <string name="main_share_msg2">My %1$s %2$s battery averages %3$s (%4$s active usage) on a single charge. Check out GSam Battery Monitor: - http://bit.ly/uHT7Vy  #badassbattery</string>
     <string name="main_share_msg">My %1$s %2$s battery averages %3$s on a single charge. Check out GSam Battery Monitor monitor - http://bit.ly/uHT7Vy #badassbattery</string>
     <string name="main_tablet_battusage_unplug">%1$s%% Used Over %2$s (Since Last Unplugged)</string>
     <string name="main_tablet_battusage_fullcharge">%1$s%% Used Over %2$s (Since Full Charge)</string>
     <string name="main_tablet_battusage_customref">%1$s%% Used Over %2$s (Since Custom Reference)</string>
-    <string name="main_tablet_active_usage">Active (%1$02d:%2$02d:%3$02d)</string>
-    <string name="main_tablet_standby_usage">Standby (%1$02d:%2$02d:%3$02d)</string>    
-    <string name="rate_me_title">Rate GSam Battery Monitor</string>
+    <string name="main_tablet_active_usage">平均 (%1$02d:%2$02d:%3$02d)</string>
+    <string name="main_tablet_standby_usage">待命 (%1$02d:%2$02d:%3$02d)</string>    
+    <string name="rate_me_title">評分 GSam Battery Monitor</string>
     <string name="rate_me_msg">Do you like GSam Battery Monitor?  Please take the time to give the app a good rating!\n\nDon\'t worry - you won\'t be asked again.</string>
-    <string name="rate_me_ok">Rate It!</string>
-    <string name="main_header_type">Type</string>
-    <string name="main_header_time">Time</string>
-    <string name="main_header_power">Power</string>
-    <string name="averages_since">Since %1$s</string>
-    <string name="averages_header">Averages Per Complete Charge</string>
-    <string name="main_avg_timepercharge_label2">Battery Life:</string>
-    <string name="main_avg_timepercharge_text_active">%1$s (%2$s Active)</string>
-    <string name="main_avg_timepercharge_text_standby">%1$s (%2$s Standby)</string>
-    <string name="main_avg_screenon_label">Screen On:</string>
-    <string name="main_avg_screenon_text">%1$s (%2$s Max)</string>
-    <string name="main_avg_chargetime_label">Charge Time:</string>
+    <string name="rate_me_ok">為它評分！</string>
+    <string name="main_header_type">類型</string>
+    <string name="main_header_time">時間</string>
+    <string name="main_header_power">電力</string>
+    <string name="averages_since">從 %1$s</string>
+    <string name="averages_header">平均每次完全充電</string>
+    <string name="main_avg_timepercharge_label2">電池壽命：</string>
+    <string name="main_avg_timepercharge_text_active">%1$s (%2$s 啟用)</string>
+    <string name="main_avg_timepercharge_text_standby">%1$s (%2$s 待命)</string>
+    <string name="main_avg_screenon_label">螢幕開啟:</string>
+    <string name="main_avg_screenon_text">%1$s (%2$s 最大)</string>
+    <string name="main_avg_chargetime_label">充電時間:</string>
     <string name="main_avg_chargetime_text">%1$s AC / %2$s USB</string>
-    <string name="main_kitkat_nostats_title2">Enable More Stats with Root Companion App</string>
+    <string name="main_kitkat_nostats_title2">使用 Root 隨附應用程式啟用更多統計資料</string>
     <string name="main_kitkat_nostats_helper_needed2">You can enable access to more statistics if you
         have Root access by installing the GSam Root Companion app.  This gives you access to detailed
         wakelock, sensor usage, and many other statistics.\n
@@ -264,13 +264,13 @@
         function just fine without it.\n
         \nSee <a href="http://goo.gl/WBXJ6o">http://goo.gl/WBXJ6o</a> for more information.</string>
     <string name="main_kitkat_nostats_helper_not_installed_correctly">The Root Companion application is not installed correctly in /system/priv-app.  Please launch the application and verify it is correctly installed.</string>
-	<string name="main_kitkat_nostats_launch_companion">Launch Root Companion</string>
-	<string name="main_kitkat_nostats_install_companion">Install Root Companion</string>
-	<string name="main_phone_permission_title">Grant Phone Permission</string>
+	<string name="main_kitkat_nostats_launch_companion">啟動 Root 隨附程式</string>
+	<string name="main_kitkat_nostats_install_companion">安裝 Root 隨附程式</string>
+	<string name="main_phone_permission_title">授予電話權限</string>
 	<string name="main_phone_permission_text">GSam can track the power usage of your phone by monitoring its state and signal strength.&lt;BR/>&lt;BR/>Granting access to the &lt;B>Phone (make and manage phone calls)&lt;/B> permission will result in more accurate statistics."</string>
     <string name="main_stats_corrupt_title">Unable to retrieve stats</string>
     <string name="main_stats_currupt_text">An error occurred while retrieving battery statistics.  If this error continues, try &lt;li>&amp;nbsp;Restarting your phone, or &lt;/li> &lt;li>&amp;nbsp;Charge your phone to 100%&lt;/li>This is an issue with the core Android services, and not GSam Battery Monitor.</string>
-    <string name="main_notification_permission_title">Get Notified</string>
+    <string name="main_notification_permission_title">取得通知</string>
     <string name="main_notification_permission_text">GSam can use notifications to show you the current state of the battery.&lt;BR/>&lt;BR/>Once you grant access, you can control notifications in GSam Preferences.</string>
 
     <!-- ADB Connect Wizard -->
@@ -338,15 +338,15 @@
         C:\\>
     </string>
     <!-- Detail Screens (App Sucker & Wifi/Radio/Screen Usage) -->
-    <string name="process_suck_mon_title_prefix_app">App Detail</string>
-    <string name="process_suck_mon_title_prefix_wifi">Wifi Detail</string>
-    <string name="process_suck_mon_title_prefix_radio">Radio Detail</string>
-    <string name="process_suck_mon_title_prefix_screen">Screen Detail</string>
-    <string name="process_suck_mon_title_prefix_wakelock">Wakelock Detail</string>
-    <string name="appdetail_usagedetail">Usage Details</string>
-    <string name="appdetail_processname">Process Name</string>
-    <string name="appdetail_included_packages">Included Packages</string>
-    <string name="appdetail_included_processes">Included Processes</string>
+    <string name="process_suck_mon_title_prefix_app">應用程式詳細資料</string>
+    <string name="process_suck_mon_title_prefix_wifi">WiFi 詳細資料</string>
+    <string name="process_suck_mon_title_prefix_radio">無線電詳細資料</string>
+    <string name="process_suck_mon_title_prefix_screen">螢幕詳細資料</string>
+    <string name="process_suck_mon_title_prefix_wakelock">喚醒鎖定詳細資料</string>
+    <string name="appdetail_usagedetail">使用量詳細資料</string>
+    <string name="appdetail_processname">處理程序詳細資料</string>
+    <string name="appdetail_included_packages">包含的套件</string>
+    <string name="appdetail_included_processes">包含的處理程序</string>
     <string name="appdetail_seconds">%1$01ds</string>
     <string name="appdetail_minutes">%1$01dm %2$01ds</string>
     <string name="appdetail_minutes_decimal">%1$sm</string>
@@ -356,72 +356,72 @@
     <string name="appdetail_hours">%1$01dh %2$01dm %3$01ds</string>
     <string name="appdetail_hours_twolevels">%1$01dh %2$01dm</string>
     <string name="appdetail_hours_twolevels_decimal">%1$01dh %2$sm</string>
-    <string name="appdetail_details_button">Manage</string>
+    <string name="appdetail_details_button">管理</string>
     <string name="appdetail_details_button_wakelocks">Google Me</string>    
-    <string name="appdetail_details_adjustpower">Power Savings Hint</string>
+    <string name="appdetail_details_adjustpower">電力節省提示</string>
     <string name="appdetail_details_adjust_wifi">Turn off Wi-Fi when not in use using the Wi-Fi Settings button above.</string>
-    <string name="appdetail_details_adjust_wifi_button">Wi-Fi Settings</string>
-    <string name="appdetail_details_adjust_wifi_failedintent">Unable to launch wifi settings</string>
+    <string name="appdetail_details_adjust_wifi_button">Wi-Fi 設定</string>
+    <string name="appdetail_details_adjust_wifi_failedintent">無法啟動 Wi-Fi 設定</string>
     <string name="appdetail_details_adjust_screen">Lower screen brightness and screen timeout using the Display Settings button above.</string>
-    <string name="appdetail_details_adjust_screen_button">Display Settings</string>
-    <string name="appdetail_details_adjust_screen_failedintent">Unable to launch display settings</string>
-    <string name="detail_menu_export">Export</string>
-    <string name="detail_menu_export_dlg_title">Export Screen (Text) Data Using</string>
-    <string name="detail_menu_export_subject">GSam Labs - Battery Monitor - Export Data</string>    
-    <string name="appdetail_appuid">App UID:</string>  
-    <string name="appdetail_audio">Audio On:</string>  
-    <string name="appdetail_bright">Bright:</string>  
-    <string name="appdetail_bytesrec">Bytes Received:</string>  
-    <string name="appdetail_bytessent">Bytes Sent:</string>  
-    <string name="appdetail_cpu">CPU Usage:</string>  
-    <string name="appdetail_cpu_backgroundonly">CPU Usage (Background Only):</string>  
-    <string name="appdetail_dark">Dark:</string>  
-    <string name="appdetail_data_enabled">Data Enabled:</string>  
+    <string name="appdetail_details_adjust_screen_button">顯示設定</string>
+    <string name="appdetail_details_adjust_screen_failedintent">無法啟動顯示設定</string>
+    <string name="detail_menu_export">匯出</string>
+    <string name="detail_menu_export_dlg_title">匯出螢幕使用資料 (文字)</string>
+    <string name="detail_menu_export_subject">GSam Labs - Battery Monitor - 匯出資料</string>    
+    <string name="appdetail_appuid">應用程式 UID：</string>  
+    <string name="appdetail_audio">音訊開啟：</string>  
+    <string name="appdetail_bright">亮度：</string>  
+    <string name="appdetail_bytesrec">接收位元組：</string>  
+    <string name="appdetail_bytessent">串送位元組：</string>  
+    <string name="appdetail_cpu">CPU 使用量：</string>  
+    <string name="appdetail_cpu_backgroundonly">CPU 使用量 (僅背景)：</string>  
+    <string name="appdetail_dark">Dark：</string>  
+    <string name="appdetail_data_enabled">數據啟用：</string>  
     <string name="appdetail_dim">Dim:</string>  
     <string name="appdetail_discharge_whileonoff">Discharge While On/Off:</string>  
     <string name="appdetail_gps">GPS:</string>  
-    <string name="appdetail_high">High - %s:</string>
-    <string name="appdetail_keepawake">Keep Awake:</string>  
+    <string name="appdetail_high">高 - %s:</string>
+    <string name="appdetail_keepawake">保持喚醒：</string>  
     <string name="appdetail_light">Light:</string>  
-    <string name="appdetail_low">Low - 0:</string>  
+    <string name="appdetail_low">低 - 0:</string>  
     <string name="appdetail_med">Medium - %s:</string>
     <string name="appdetail_medium">Medium:</string>  
     <string name="appdetail_numwakes">Number of times waking device:</string>  
     <string name="appdetail_pct_power">\ \ \ \ \ \ \ \ % Power</string>
     <string name="appdetail_pct_power_nospace">% Power</string>
     <string name="appdetail_pct_time">% Time</string>
-    <string name="appdetail_phoneon">Phone Radio On:</string>  
-    <string name="appdetail_pwr_sysdata">Power For System Data:</string>  
-    <string name="appdetail_received">Received:</string>  
-    <string name="appdetail_received_wifimobile">Received (Wifi / Mobile):</string> 
-    <string name="appdetail_scanning">Scanning For Signal:</string>  
-    <string name="appdetail_screen_brightness">Screen Brightness:</string>  
-    <string name="appdetail_screenon">Screen On:</string>  
-    <string name="appdetail_sensor_accelerometer">Accelerometer:</string>  
-    <string name="appdetail_sensor_gravity">Gravity:</string>  
-    <string name="appdetail_sensor_gyroscope">Gyroscope:</string>  
-    <string name="appdetail_sensor_light">Light:</string>  
-    <string name="appdetail_sensor_lin_accel">Linear Acceleration:</string>  
-    <string name="appdetail_sensor_magfield">Magnetic Field:</string>  
-    <string name="appdetail_sensor_orientation">Orientation:</string>  
-    <string name="appdetail_sensor_pressure">Pressure:</string>  
-    <string name="appdetail_sensor_proximity">Proximity:</string>  
-    <string name="appdetail_sensor_relhum">Relative Humidity:</string>  
-    <string name="appdetail_sensor_rotvector">Rotational Vector:</string>  
-    <string name="appdetail_sensor_temp">Temperature:</string>  
-    <string name="appdetail_sent">Sent:</string>  
-    <string name="appdetail_sent_wifimobile">Sent (Wifi / Mobile):</string>  
-    <string name="appdetail_signal_stregth">Signal Strength:</string>
-    <string name="appdetail_total_appssystem">Total (Apps / System):</string> 
-    <string name="appdetail_video">Video On:</string>  
-    <string name="appdetail_wakelocks">Number of Wake Locks:</string>  
-    <string name="appdetail_wifiactive">Wifi Active:</string>  
-    <string name="appdetail_wifion">Wifi On:</string>      
-    <string name="appdetail_bytes">%d bytes</string>
+    <string name="appdetail_phoneon">手機無線電開啟：</string>  
+    <string name="appdetail_pwr_sysdata">系統數據電力：</string>  
+    <string name="appdetail_received">接收：</string>  
+    <string name="appdetail_received_wifimobile">接收 (WiFi / 行動網路):</string> 
+    <string name="appdetail_scanning">掃描訊號：</string>  
+    <string name="appdetail_screen_brightness">螢幕亮度：</string>  
+    <string name="appdetail_screenon">螢幕開啟：</string>  
+    <string name="appdetail_sensor_accelerometer">加速計：</string>  
+    <string name="appdetail_sensor_gravity">重力：</string>  
+    <string name="appdetail_sensor_gyroscope">迴轉儀：</string>  
+    <string name="appdetail_sensor_light">光線：</string>  
+    <string name="appdetail_sensor_lin_accel">線加速度：</string>  
+    <string name="appdetail_sensor_magfield">磁場：</string>  
+    <string name="appdetail_sensor_orientation">方向：</string>  
+    <string name="appdetail_sensor_pressure">壓力：</string>  
+    <string name="appdetail_sensor_proximity">近接：</string>  
+    <string name="appdetail_sensor_relhum">相對濕度：</string>  
+    <string name="appdetail_sensor_rotvector">旋轉向量：</string>  
+    <string name="appdetail_sensor_temp">溫度：</string>  
+    <string name="appdetail_sent">傳送：</string>  
+    <string name="appdetail_sent_wifimobile">傳送 (WiFi / 行動網路):</string>  
+    <string name="appdetail_signal_stregth">訊號強度：</string>
+    <string name="appdetail_total_appssystem">總計 (應用程式 / System):</string> 
+    <string name="appdetail_video">視訊開啟：</string>  
+    <string name="appdetail_wakelocks">喚醒鎖定數目：</string>  
+    <string name="appdetail_wifiactive">Wifi 啟用：</string>  
+    <string name="appdetail_wifion">Wifi 開啟：</string>      
+    <string name="appdetail_bytes">%d 位元組</string>
     <string name="appdetail_mb">%.2f MB</string>           
     <string name="appdetail_kb">%.2f KB</string>   
-    <string name="appdetail_totaltime">Total Time (including awake):</string>
-    <string name="appdetail_select_package">Select Package To Manage</string>
+    <string name="appdetail_totaltime">總計時間 (包含喚醒)：</string>
+    <string name="appdetail_select_package">選取要管理的套件</string>
     <string name="appdetail_heldawake_title">Held Awake / Doze</string>
     <string name="appdetail_deep_sleep_label">Deep Sleep - CPU Freq 0:</string>
     <string name="appdetail_doze_num_label">Doze Sessions:</string>
@@ -437,36 +437,36 @@
     <string name="appdetail_screendoze">Screen Doze:</string>
 
     <!-- Change Log - actual change content isn't translated -->
-    <string name="changelog_full_title">What\'s New</string>
-    <string name="changelog_title">What\'s New</string>
-    <string name="changelog_ok_button">OK</string>
+    <string name="changelog_full_title">新增功能</string>
+    <string name="changelog_title">新增功能</string>
+    <string name="changelog_ok_button">確定</string>
 
     <!-- Misc. -->
-    <string name="yes">Yes</string>
-    <string name="no">No</string>
-    <string name="ok">OK</string>
-    <string name="error">An error occurred</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="ok">確定</string>
+    <string name="error">發生錯誤</string>
     
     <!-- Copied from the original BATTERY_STATS permission description -->
-    <string name="permlab_batteryStats">read battery statistics</string>
+    <string name="permlab_batteryStats">讀取電池統計資料</string>
     <string name="permdesc_batteryStats">Allows an application to read the current low-level
         battery use data.  May allow the application to find out detailed information about
         which apps you use.</string>
 
     <!-- Charts -->
-    <string name="main_chart_showtemp">Temperature</string>
-    <string name="main_chart_showother">Others</string>
-    <string name="main_chart_showradio">Phone Signal</string>
-    <string name="main_chart_showrate">Rate of Change</string>
+    <string name="main_chart_showtemp">溫度</string>
+    <string name="main_chart_showother">其他</string>
+    <string name="main_chart_showradio">手機訊號</string>
+    <string name="main_chart_showrate">變動率</string>
     <string name="main_chart_showcpu">CPU</string>
-    <string name="chart_menu_batthistory">Battery History Chart</string>
-    <string name="chart_menu_battdischarge">Power vs Percent Chart</string>
-    <string name="notification_chargecomplete">Charge Complete</string>
-    <string name="notification_battcharging">Battery Charging (%1s%%)</string>
+    <string name="chart_menu_batthistory">電池歷史記錄圖表</string>
+    <string name="chart_menu_battdischarge">電力/百分比圖表</string>
+    <string name="notification_chargecomplete">充電完成</string>
+    <string name="notification_battcharging">電池充電中 (%1s%%)</string>
     <string name="notification_battlow">Battery Low (%1s%%)</string>
-    <string name="notification_batthot_f">Warning - Hot Battery (%.1f\u00B0F)</string>
-    <string name="notification_batthot_c">Warning - Hot Battery (%.1f\u00B0C)</string>
-    <string name="notification_battovervoltage">Warning - Battery Over Voltage (%.1f V)</string>
+    <string name="notification_batthot_f">警告 - 電池過熱 (%.1f\u00B0F)</string>
+    <string name="notification_batthot_c">警告 - 電池過熱 (%.1f\u00B0C)</string>
+    <string name="notification_battovervoltage">警告 - 電池過電壓 (%.1f V)</string>
     <string name="chart_active">Active</string>
     <string name="chart_batt_history">Battery History (%1$s)</string>
     <string name="chart_batt_percent">Battery %</string>
@@ -478,27 +478,27 @@
     <string name="chart_low">Low</string>
     <string name="chart_max">Max</string>
     <string name="chart_med">Med</string>
-    <string name="chart_screen">Screen</string>
-    <string name="chart_signal">Phone Signal</string>
-    <string name="chart_rateofchange">\u0394 %/Hour</string>
-    <string name="chart_tempc">Battery Temperature \u00B0C</string>
-    <string name="chart_tempf">Battery Temperature \u00B0F</string>
+    <string name="chart_screen">螢幕</string>
+    <string name="chart_signal">手機訊號</string>
+    <string name="chart_rateofchange">\u0394 %/小時</string>
+    <string name="chart_tempc">電池溫度 \u00B0C</string>
+    <string name="chart_tempf">電池溫度 \u00B0F</string>
     <string name="chart_timeformat">HH:mm</string>
-    <string name="chart_unknown">Unknown</string>
-    <string name="chart_wifi">Wifi</string>
-    <string name="chart_cpu_mhz">CPU Avg Freq (GHz)</string>
-    <string name="chart_cpu_util">CPU Util %</string>
+    <string name="chart_unknown">未知</string>
+    <string name="chart_wifi">WiFi</string>
+    <string name="chart_cpu_mhz">CPU 平均頻率 (GHz)</string>
+    <string name="chart_cpu_util">CPU 使用率 %</string>
     <string name="chart_idle">Doze</string>
     <!-- AOD == Always On Display, but needs to be < 8 characters to fit -->
     <string name="chart_screen_doze">AOD</string>
     
     <!-- About -->
-    <string name="about_app_name">About GSam Battery Monitor</string>
-    <string name="about_version">Version %1s</string>    
+    <string name="about_app_name">關於 GSam Battery Monitor</string>
+    <string name="about_version">版本 %1s</string>    
     <string name="about_copyright">\u24d2 GSam Labs 2022</string>
-    <string name="about_chartengine">Chart Engine by AChartEngine.org</string>
-    <string name="about_icons">App Icons by &lt;a href="https://plus.google.com/photos/117250163221109087714/albums/5509475934074997921"&gt;Marius Bozgan&lt;/a&gt;</string>
-    <string name="about_translations">Translations:</string>
+    <string name="about_chartengine">圖表引擎來自 AChartEngine.org</string>
+    <string name="about_icons">應用程式圖示來自 &lt;a href="https://plus.google.com/photos/117250163221109087714/albums/5509475934074997921"&gt;Marius Bozgan&lt;/a&gt;</string>
+    <string name="about_translations">翻譯：</string>
     
     <!-- DashClock Widget Extension -->
     <string name="dashclock_description">Show battery statistics including time left, drain per hour, and more.</string>
@@ -517,8 +517,8 @@
     <string name="dashclock_settings">GSam Extension Settings</string>
     
     <!-- Translations & Translators -->   
-    <string name="lang_default">Default System Language</string>        
-    <string name="translator_anonymous">Anonymous</string>
+    <string name="lang_default">預設系統語言</string>        
+    <string name="translator_anonymous">匿名</string>
     <!-- NOTE: If they would like credit in the About screen, Translators can optionally put a name & optional HTML link.  You can have > 1 name, just use &lt;BR&gt; The key should be in the form 'translator_lang'-->
     <string name="translator_ru">Dmitry Chernogaev &lt;a href=\"http://forum.xda-developers.com/member.php?u=4563466\"&gt;(gaich)&lt;/a&gt;</string>        
     <string name="translator_fr">Jaworski Johan</string>
