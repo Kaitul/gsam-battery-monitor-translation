@@ -29,7 +29,7 @@
     <string name="preferences_startup_service_sum">開機時啟動電池監測</string>
     <string name="preferences_temperature_title">攝氏溫度</string>
     <string name="preferences_show_notification_icon_title">顯示通知圖示</string>
-    <string name="preferences_show_notification_icon_sum" tools:ignore="StringFormatInvalid">再通知列顯示 % 通知圖示</string>
+    <string name="preferences_show_notification_icon_sum" tools:ignore="StringFormatInvalid">在通知列顯示百分比通知圖示</string>
     <string name="preferences_show_notification_title">僅顯示通知</string>
     <string name="preferences_show_notification_sum">僅顯示通知，不顯示通知圖示</string>
     <string name="preferences_alarm_condition_charging">電量高於</string>
@@ -43,7 +43,7 @@
     <string name="preferences_theme_title">電池圖示主題</string>
     <string name="preferences_theme_sum">選擇電池圖示樣式</string>
     <string name="preferences_theme_getmore_title">取得更多主題</string>
-    <string name="preferences_theme_getmore_msg">這將搜尋更多電池監視器主題  This will search for more Battery Monitor themes.  GSam Labs does not control or approve all themes, so if the theme does\'t work, contact the the developer of the theme.\n\nDownload and install the theme, then come back to this menu to see the available themes.\n\nDid you know you can create your own themes?  See http://badassbatterymonitor.blogspot.com for details on how!</string>
+    <string name="preferences_theme_getmore_msg">這將搜尋更多電池監視器主題。GSam Lab 不控制或核准所有的主題，所以若主題無法運作，請聯絡主題的開發人員。\n\n下載並安裝主題，然後回到這個選單查看可用的主題。\n\n您知道您可以建立自己的主題嗎？请參見 http://badassbatterymonitor.blogspot.com，了解如何建立！</string>
     <string name="preferences_theme_progress_title">正在擷取主題</string>
     <string name="preferences_theme_progress_msg">正在擷取可用主題清單\u2026</string>
     <string name="preferences_widget_back_title">透明小工具背景</string>
@@ -195,17 +195,17 @@
     <string name="main_temp">溫度: </string>
     <string name="main_voltage">電壓: </string>
     <string name="main_health">類型 / 健康: </string>
-    <string name="main_health_cold">Cold</string>
-    <string name="main_health_dead">Dead</string>
-    <string name="main_health_good">Good</string>
-    <string name="main_health_hot">Hot</string>
+    <string name="main_health_cold">過冷</string>
+    <string name="main_health_dead">損壞</string>
+    <string name="main_health_good">良好</string>
+    <string name="main_health_hot">過熱</string>
     <string name="main_health_over_voltage">過電壓</string>
     <string name="main_health_unknown">未知</string>
     <string name="main_health_failed">失敗</string>
     <string name="main_usage_label">電池使用量 - %1$s%% (%2$02d:%3$02d:%4$02d)</string>
-    <string name="main_usage_label2">Used %1$s%% in %2$s</string>
-    <string name="main_usage_label_active_standby">\u0394 %1$.1f%%/h - %2$s Active, %3$s Standby</string>
-    <string name="main_usage_label_active">\u0394 %1$.1f%%/h - %2$s Active</string>
+    <string name="main_usage_label2">在 %2$s 內使用了 %1$s%%</string>
+    <string name="main_usage_label_active_standby">\u0394 %1$.1f%%/時 - %2$s 啟用，%3$s 待命</string>
+    <string name="main_usage_label_active">\u0394 %1$.1f%%/時 - %2$s 啟用</string>
     <string name="main_phone_on_label">電話:</string>
     <string name="main_screen_on_label">螢幕:</string>
     <string name="main_phone_radio_on_label">無線電:</string>
@@ -224,7 +224,7 @@
     <string name="menu_remove_custom_ref">移除自訂參考資料</string>
     <string name="menu_refresh">重新整理</string>
     <string name="main_refresh_toast">統計資料已重新整理\u2026</string>
-    <string name="main_market_nomarket_msg">Function not available.  There does not appear to be a market application installed on your device.</string>
+    <string name="main_market_nomarket_msg">無法使用此功能，您的裝置上尚未安裝市集應用程式。</string>
     <string name="menu_help">說明</string>
     <string name="menu_send_debug_data">傳送錯誤報告</string>    
     <string name="menu_send_debug_data_dlg_title">傳送錯誤報告使用：</string>
@@ -242,7 +242,7 @@
     <string name="main_tablet_active_usage">平均 (%1$02d:%2$02d:%3$02d)</string>
     <string name="main_tablet_standby_usage">待命 (%1$02d:%2$02d:%3$02d)</string>    
     <string name="rate_me_title">評分 GSam Battery Monitor</string>
-    <string name="rate_me_msg">Do you like GSam Battery Monitor?  Please take the time to give the app a good rating!\n\nDon\'t worry - you won\'t be asked again.</string>
+    <string name="rate_me_msg">您喜歡 GSam Battery Monitor 嗎？請花時間給這個應用程式一個好評！\n\n別擔心 - 您不會被再次要求。</string>
     <string name="rate_me_ok">為它評分！</string>
     <string name="main_header_type">類型</string>
     <string name="main_header_time">時間</string>
