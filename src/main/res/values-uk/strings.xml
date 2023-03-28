@@ -174,9 +174,9 @@
     <string name="procsuckmon_unacounted_cpu_label">合併應用程式 CPU</string>
     <string name="procsuckmon_unacounted_cpu_title">這是什麼意思？</string>
     <string name="procsuckmon_unacounted_cpu_text">
-        Consider enabling more stats to avoid this message via Menu -> More -> Enable More Stats&lt;BR/>&lt;BR/>
-        Android N and later doesn\'t permit apps to gather the CPU utilization of other apps, and therefore GSam can\'t distinguish which app is responsible for the system CPU utilization.
-        Instead, GSam puts all CPU utilization in this one bucket so it\'s clear that apps are consuming resources.  GSam is still able to track other battery drainers such as network usage, etc.
+        考慮透過「選單」->「更多」->「啟用更多統計資料」以避免此訊息Consider enabling more stats to avoid this message via Menu -> More -> Enable More Stats&lt;BR/>&lt;BR/>
+        Android N 和更高版本不允許應用程式收集其他應用程式的 CPU 使用率，因此 GSam 無法區分哪個應用程式對系統 CPU 使用率負責。
+        不同的是，GSam 把所有的 CPU 使用率都存放在這一個貯體中，所以很明顯，應用程式正在消耗資源。GSam 仍然能夠追蹤其他消耗電池的因素，如網路使用量等。
     </string>
 
     <!-- Main screen -->
@@ -283,20 +283,20 @@
     <string name="adb_start_text3">
         &#8212; &lt;b>No Root?&lt;/b>  Connect to a computer and use the ADB command to enable access.
     </string>
-    <string name="adb_start_button">Show Me How</string>
-    <string name="adb_get_title">Get ADB</string>
+    <string name="adb_start_button">告訴我如何做</string>
+    <string name="adb_get_title">取得 ADB</string>
     <string name="adb_get_text">
-        Download and install ADB on your computer.  You can find the application and instructions here:
+        在您的電腦上下載並安裝 ADB，您可以在此處找到應用程式和指示：
         &lt;br/>&lt;br/>
-        &#8212; Get just the command line tools from Google (&lt;a href="https://goo.gl/4WJatw">https://goo.gl/4WJatw&lt;/a>)
+        &#8212; 只需從 Google 取得命令列工具 (&lt;a href="https://goo.gl/4WJatw">https://goo.gl/4WJatw&lt;/a>)
         &lt;br/>&lt;br/>
-        &#8212; Or get a simple installer (Windows Only) from XDA (&lt;a href="https://goo.gl/k0KbZZ">https://goo.gl/k0KbZZ&lt;/a>)
+        &#8212; 或從 XDA 取得一個簡易的安裝程式 (僅限 Windows) (&lt;a href="https://goo.gl/k0KbZZ">https://goo.gl/k0KbZZ&lt;/a>)
     </string>
     <string name="adb_get_button">沒問題，我已安裝 ADB！</string>
     <string name="adb_developer_title">啟用 USB 偵錯</string>
     <string name="adb_developer_text">若要在您的裝置上啟用 ADB，您需要先啟用 USB 偵錯。在所有工作完成後您可以停用偵錯。</string>
     <string name="adb_developer_text2">&lt;a href="">啟動設定 -> 關於&lt;/a>&lt;br></string>
-    <string name="adb_developer_text2_click">Click on the "Build Number" entry 7 times until it tells you that you are a developer</string>
+    <string name="adb_developer_text2_click">輕觸「版本號碼」選項七次，直到畫面上顯示「You are now a developer!」訊息</string>
     <string name="adb_developer_text3">&lt;a href="">啟動設定 -> 開發人員選項"&lt;/a>&lt;br></string>
     <string name="adb_developer_text3_click">選取「USB 偵錯」</string>
     <string name="adb_developer_error_not_developer">請先啟用開發人員選項</string>
@@ -304,9 +304,9 @@
     <string name="adb_developer_button">沒問題，我已啟用 USB 偵錯！</string>
     <string name="adb_connect_title">連線並驗證 ADB</string>
     <string name="adb_connect_text">
-        &#8212; Connect your phone to your computer via USB&lt;br/>&lt;br/>
-        &#8212; Make sure you select &lt;i>&lt;b>Allow USB debugging&lt;/b>&lt;/i> on any popup message on your phone&lt;br/>&lt;br/>
-        &#8212; Verify ADB is active by opening up a command shell on your computer and running &lt;i>&lt;b>adb devices&lt;/b>&lt;/i>
+        &#8212; 透過 USB 連線您的手機&lt;br/>&lt;br/>
+        &#8212; 確保您已在手機的彈出式訊息中選取 &lt;i>&lt;b>允許 USB 偵錯&lt;/b>&lt;/i>&lt;br/>&lt;br/>
+        &#8212; 透過在您的電腦上開啟一個命令殼層以驗證 ADB 是否已經啟用並執行 &lt;i>&lt;b>adb devices&lt;/b>&lt;/i>
     </string>
     <string name="adb_connect_text2">
         C:\\> adb devices&lt;br/>
@@ -314,24 +314,24 @@
         85B7N26304004631	device&lt;br/>
         C:\\>
     </string>
-    <string name="adb_connect_button">OK, ADB is active!</string>
-    <string name="adb_grant_title">Grant GSam Access</string>
-    <string name="adb_grant_text">Grant GSam access to the BATTERY_STATS permission using the followng ADB command (all on one line).  This setting should stick through the life of the application install.</string>
+    <string name="adb_connect_button">沒問題，ADB 已啟用！</string>
+    <string name="adb_grant_title">授予 GSam 存取權</string>
+    <string name="adb_grant_text">使用下列 ADB 命令 (全部在同一行) 授予 GSam 的 BATTERY_STATS 存取權，這個設定應該在應用程式安裝過程中始終有效。</string>
     <string name="adb_grant_text2">
         C:\\> adb shell pm grant %1$s android.permission.BATTERY_STATS&lt;br/>
         C:\\>
     </string>
-    <string name="adb_grant_button">All Done!</string>
-    <string name="adb_grant_error_not_granted">Permission still not granted.  Try again&#8230;</string>
-    <string name="adb_grant_success">Congratulations &#8212; Permission Granted!\nYou can disable USB Debugging now if you wish.</string>
-    <string name="adb_root_progress_title">Please Wait&#8230;</string>
-    <string name="adb_root_progress_msg">Granting GSam BATTERY_STATS permission&#8230;\n\nMake sure you accept any superuser requests.</string>
-    <string name="adb_root_error_no_rights">Unable to obtain supersuser authority.  Do you have root?  Did you give GSam authority?</string>
-    <string name="adb_root_error_dlg_title">An Error Occurred</string>
-    <string name="adb_root_success">Congratulations &#8212; Permission Granted!</string>
+    <string name="adb_grant_button">全部完成！</string>
+    <string name="adb_grant_error_not_granted">權限仍未授予，請再試一次&#8230;</string>
+    <string name="adb_grant_success">恭喜您，&#8212;權限已授予！\n如果您願意，您現在即可停用 USB 偵錯。</string>
+    <string name="adb_root_progress_title">請稍候&#8230;</string>
+    <string name="adb_root_progress_msg">授予 GSam BATTERY_STATS 權限&#8230;\n\n確保您接受超級使用者要求。</string>
+    <string name="adb_root_error_no_rights">無法取得超級使用者授權，您確定您已經 Root 了嗎？或者有沒有給 GSam 授權？ </string>
+    <string name="adb_root_error_dlg_title">發生錯誤</string>
+    <string name="adb_root_success">恭喜您，&#8212;權限已授予！</string>
     <string name="adb_enable_hidden_api_text">
-        &lt;b>Optional:&lt;/b> Permit GSam to access hidden APIs. This &lt;b>is not&lt;/b> required, but will provide more &lt;a href="http://blogger.gsamlabs.com/2019/12/enhanced-statistics-for-android-pie-and.html">detailed results&lt;/a>.&lt;br/>&lt;br/>
-        &lt;b>WARNING:&lt;/b> This hidden API access is a system wide setting, so other apps can access hidden APIs as well as GSam.
+        &lt;b>選用：&lt;/b> 允許 GSam 存取隱藏的 API。這&lt;b>並非&lt;/b>必要，但會提供更多&lt;a href="http://blogger.gsamlabs.com/2019/12/enhanced-statistics-for-android-pie-and.html">詳細結果&lt;/a>.&lt;br/>&lt;br/>
+        &lt;b>警告：&lt;/b> 這種隱藏的 API 存取是一個系統範圍設定，因此其他應用程式也可以存取隱藏的 API，以及 GSam。
     </string>
     <string name="adb_enable_hidden_api_text2">
         C:\\> adb shell settings put global %1$s 1&lt;br/>
@@ -347,17 +347,17 @@
     <string name="appdetail_processname">處理程序詳細資料</string>
     <string name="appdetail_included_packages">包含的套件</string>
     <string name="appdetail_included_processes">包含的處理程序</string>
-    <string name="appdetail_seconds">%1$01ds</string>
-    <string name="appdetail_minutes">%1$01dm %2$01ds</string>
-    <string name="appdetail_minutes_decimal">%1$sm</string>
-    <string name="appdetail_days">%1$01dd %2$01dh %3$01dm</string>
-    <string name="appdetail_days_twolevels">%1$01dd %2$01dh</string>    
-    <string name="appdetail_days_twolevels_decimal">%1$01dd %2$sh</string>
-    <string name="appdetail_hours">%1$01dh %2$01dm %3$01ds</string>
-    <string name="appdetail_hours_twolevels">%1$01dh %2$01dm</string>
-    <string name="appdetail_hours_twolevels_decimal">%1$01dh %2$sm</string>
+    <string name="appdetail_seconds">%1$01d秒</string>
+    <string name="appdetail_minutes">%1$01d分 %2$01d秒</string>
+    <string name="appdetail_minutes_decimal">%1$s分</string>
+    <string name="appdetail_days">%1$01d天 %2$01d時 %3$01d分</string>
+    <string name="appdetail_days_twolevels">%1$01d天 %2$01d時</string>    
+    <string name="appdetail_days_twolevels_decimal">%1$01d天 %2$s時</string>
+    <string name="appdetail_hours">%1$01dh %2$01d分 %3$01d秒</string>
+    <string name="appdetail_hours_twolevels">%1$01d時 %2$01d分</string>
+    <string name="appdetail_hours_twolevels_decimal">%1$01d時 %2$s分</string>
     <string name="appdetail_details_button">管理</string>
-    <string name="appdetail_details_button_wakelocks">Google Me</string>    
+    <string name="appdetail_details_button_wakelocks">透過 Google 搜尋我</string>    
     <string name="appdetail_details_adjustpower">電力節省提示</string>
     <string name="appdetail_details_adjust_wifi">在 Wi-Fi 未使用時，使用上方的按鈕關閉 Wi-Fi。</string>
     <string name="appdetail_details_adjust_wifi_button">Wi-Fi 設定</string>
@@ -380,12 +380,12 @@
     <string name="appdetail_dim">Dim:</string>  
     <string name="appdetail_discharge_whileonoff">Discharge While On/Off:</string>  
     <string name="appdetail_gps">GPS:</string>  
-    <string name="appdetail_high">高 - %s:</string>
+    <string name="appdetail_high">高 - %s：</string>
     <string name="appdetail_keepawake">保持喚醒：</string>  
     <string name="appdetail_light">Light:</string>  
-    <string name="appdetail_low">低 - 0:</string>  
-    <string name="appdetail_med">Medium - %s:</string>
-    <string name="appdetail_medium">Medium:</string>  
+    <string name="appdetail_low">低 - 0：</string>  
+    <string name="appdetail_med">中 - %s：</string>
+    <string name="appdetail_medium">中：</string>  
     <string name="appdetail_numwakes">喚醒裝置次數：</string>  
     <string name="appdetail_pct_power">\ \ \ \ \ \ \ \ % 電力</string>
     <string name="appdetail_pct_power_nospace">% 電力</string>
@@ -449,9 +449,8 @@
     
     <!-- Copied from the original BATTERY_STATS permission description -->
     <string name="permlab_batteryStats">讀取電池統計資料</string>
-    <string name="permdesc_batteryStats">Allows an application to read the current low-level
-        battery use data.  May allow the application to find out detailed information about
-        which apps you use.</string>
+    <string name="permdesc_batteryStats">允許應用程式讀取電池使用資料，
+        可能會允許應用程式找到有關您使用的應用程式的詳細資訊。</string>
 
     <!-- Charts -->
     <string name="main_chart_showtemp">溫度</string>
@@ -463,7 +462,7 @@
     <string name="chart_menu_battdischarge">電力/百分比圖表</string>
     <string name="notification_chargecomplete">充電完成</string>
     <string name="notification_battcharging">電池充電中 (%1s%%)</string>
-    <string name="notification_battlow">Battery Low (%1s%%)</string>
+    <string name="notification_battlow">電量不足 (%1s%%)</string>
     <string name="notification_batthot_f">警告 - 電池過熱 (%.1f\u00B0F)</string>
     <string name="notification_batthot_c">警告 - 電池過熱 (%.1f\u00B0C)</string>
     <string name="notification_battovervoltage">警告 - 電池過電壓 (%.1f V)</string>
@@ -473,11 +472,11 @@
     <string name="chart_charging">充電中</string>
     <string name="chart_dim">Dim</string>
     <string name="chart_gps">GPS</string>
-    <string name="chart_high">High</string>
+    <string name="chart_high">高</string>
     <string name="chart_incall">通話</string>
-    <string name="chart_low">Low</string>
-    <string name="chart_max">Max</string>
-    <string name="chart_med">Med</string>
+    <string name="chart_low">低</string>
+    <string name="chart_max">最大</string>
+    <string name="chart_med">中</string>
     <string name="chart_screen">螢幕</string>
     <string name="chart_signal">手機訊號</string>
     <string name="chart_rateofchange">\u0394 %/小時</string>
@@ -501,20 +500,20 @@
     <string name="about_translations">翻譯：</string>
     
     <!-- DashClock Widget Extension -->
-    <string name="dashclock_description">Show battery statistics including time left, drain per hour, and more.</string>
-    <string name="dashclock_active_standby">%1$s Active, %2$s Standby</string>
-    <string name="dashclock_delta_per_hour_short">\u0394 %1$.1f%%/h</string>
-    <string name="dashclock_delta_per_hour_short_full">Full</string>
-    <string name="dashclock_delta_per_hour_charging">\u0394 %1$.1f%%/h - Charging</string>  
-    <string name="dashclock_delta_per_hour_discharging">\u0394 %1$.1f%%/h - Discharging</string>  
-    <string name="dashclock_to_empty">%1$s to empty</string>  
-    <string name="dashclock_to_full">%1$s to full</string>
-    <string name="dashclock_pref_show_used">Show amount used</string>
-    <string name="dashclock_pref_show_remaining_time">Show time remaining</string>
-    <string name="dashclock_pref_show_active_standby">Show active and standby times</string>
-    <string name="dashclock_pref_show_temp_voltage">Show temperature and voltage</string>
-    <string name="dashclock_pref_show_screen_on_time">Show screen on time</string>
-    <string name="dashclock_settings">GSam Extension Settings</string>
+    <string name="dashclock_description">顯示電池統計資料，包括剩餘時間、每小時電力流失和更多項目。</string>
+    <string name="dashclock_active_standby">%1$s 啟用，%2$s 待命</string>
+    <string name="dashclock_delta_per_hour_short">\u0394 %1$.1f%%/時</string>
+    <string name="dashclock_delta_per_hour_short_full">充飽</string>
+    <string name="dashclock_delta_per_hour_charging">\u0394 %1$.1f%%/時 - 充電中</string>  
+    <string name="dashclock_delta_per_hour_discharging">\u0394 %1$.1f%%/時 - 放電中</string>  
+    <string name="dashclock_to_empty">%1$s 耗盡</string>  
+    <string name="dashclock_to_full">%1$s 充飽</string>
+    <string name="dashclock_pref_show_used">顯示使用總數</string>
+    <string name="dashclock_pref_show_remaining_time">顯示剩餘時間</string>
+    <string name="dashclock_pref_show_active_standby">顯示啟用時間和待命時間</string>
+    <string name="dashclock_pref_show_temp_voltage">顯示溫度和電壓</string>
+    <string name="dashclock_pref_show_screen_on_time">顯示螢幕開啟時間</string>
+    <string name="dashclock_settings">GSam 擴充功能設定</string>
     
     <!-- Translations & Translators -->   
     <string name="lang_default">預設系統語言</string>        
@@ -549,7 +548,7 @@
     <string name="appdetail_details_adjust_screen_market_bsd_msg">If you have trouble reading at night because your screen is too bright, check out GSam Screen Dimmer.  It lets you reduce your brightness settings below what is normally allowed, making for a much more pleasant night-time read!\n\nDon\'t worry, you won\'t see this message again.</string>
     <string name="preferences_send_anon_stats_buypro_title">升級至專業版！</string>
     <string name="preferences_send_anon_stats_buypro_msg">The free version of the Battery Monitor will not let you turn off ads if you choose to not allow anonymous usage statistics.\n\nThe Pro version does not include ads, and will let you turn off anonymous usage statistics.</string>
-    <string name="menu_seeotherapps">See Other Apps by GSam Labs</string>
+    <string name="menu_seeotherapps">查看 GSam Labs 的其他應用程式</string>
     <string name="menu_gopro">升級至專業版</string>
     <string name="menu_gopro_nook">購買</string>
     <string name="menu_goprokindle">升級至 Kindle Fire Edition</string>
