@@ -292,17 +292,17 @@
         &lt;br/>&lt;br/>
         &#8212; Or get a simple installer (Windows Only) from XDA (&lt;a href="https://goo.gl/k0KbZZ">https://goo.gl/k0KbZZ&lt;/a>)
     </string>
-    <string name="adb_get_button">OK, I\'ve got ADB Installed!</string>
-    <string name="adb_developer_title">Enable USB Debugging</string>
-    <string name="adb_developer_text">To enable ADB on your device, you\'ll first need to enable USB Debug.  You can disable debugging once everything is complete.</string>
-    <string name="adb_developer_text2">&lt;a href="">Launch Settings -> About&lt;/a>&lt;br></string>
+    <string name="adb_get_button">沒問題，我已安裝 ADB！</string>
+    <string name="adb_developer_title">啟用 USB 偵錯</string>
+    <string name="adb_developer_text">若要在您的裝置上啟用 ADB，您需要先啟用 USB 偵錯。在所有工作完成後您可以停用偵錯。</string>
+    <string name="adb_developer_text2">&lt;a href="">啟動設定 -> 關於&lt;/a>&lt;br></string>
     <string name="adb_developer_text2_click">Click on the "Build Number" entry 7 times until it tells you that you are a developer</string>
-    <string name="adb_developer_text3">&lt;a href="">Launch Settings -> Developer Options"&lt;/a>&lt;br></string>
-    <string name="adb_developer_text3_click">Select "USB Debugging</string>
-    <string name="adb_developer_error_not_developer">Enable Developer Options first</string>
-    <string name="adb_developer_error_not_enabled">Enable USB Debugging first</string>
-    <string name="adb_developer_button">OK, I\'ve enabled USB Debugging!</string>
-    <string name="adb_connect_title">Connect and Verify ADB</string>
+    <string name="adb_developer_text3">&lt;a href="">啟動設定 -> 開發人員選項"&lt;/a>&lt;br></string>
+    <string name="adb_developer_text3_click">選取「USB 偵錯」</string>
+    <string name="adb_developer_error_not_developer">請先啟用開發人員選項</string>
+    <string name="adb_developer_error_not_enabled">請先啟用 USB 偵錯</string>
+    <string name="adb_developer_button">沒問題，我已啟用 USB 偵錯！</string>
+    <string name="adb_connect_title">連線並驗證 ADB</string>
     <string name="adb_connect_text">
         &#8212; Connect your phone to your computer via USB&lt;br/>&lt;br/>
         &#8212; Make sure you select &lt;i>&lt;b>Allow USB debugging&lt;/b>&lt;/i> on any popup message on your phone&lt;br/>&lt;br/>
@@ -359,10 +359,10 @@
     <string name="appdetail_details_button">管理</string>
     <string name="appdetail_details_button_wakelocks">Google Me</string>    
     <string name="appdetail_details_adjustpower">電力節省提示</string>
-    <string name="appdetail_details_adjust_wifi">Turn off Wi-Fi when not in use using the Wi-Fi Settings button above.</string>
+    <string name="appdetail_details_adjust_wifi">在 Wi-Fi 未使用時，使用上方的按鈕關閉 Wi-Fi。</string>
     <string name="appdetail_details_adjust_wifi_button">Wi-Fi 設定</string>
     <string name="appdetail_details_adjust_wifi_failedintent">無法啟動 Wi-Fi 設定</string>
-    <string name="appdetail_details_adjust_screen">Lower screen brightness and screen timeout using the Display Settings button above.</string>
+    <string name="appdetail_details_adjust_screen">使用上方的顯示設定按鈕降低螢幕亮度和螢幕逾時。</string>
     <string name="appdetail_details_adjust_screen_button">顯示設定</string>
     <string name="appdetail_details_adjust_screen_failedintent">無法啟動顯示設定</string>
     <string name="detail_menu_export">匯出</string>
@@ -372,7 +372,7 @@
     <string name="appdetail_audio">音訊開啟：</string>  
     <string name="appdetail_bright">亮度：</string>  
     <string name="appdetail_bytesrec">接收位元組：</string>  
-    <string name="appdetail_bytessent">串送位元組：</string>  
+    <string name="appdetail_bytessent">傳送位元組：</string>  
     <string name="appdetail_cpu">CPU 使用量：</string>  
     <string name="appdetail_cpu_backgroundonly">CPU 使用量 (僅背景)：</string>  
     <string name="appdetail_dark">Dark：</string>  
@@ -386,10 +386,10 @@
     <string name="appdetail_low">低 - 0:</string>  
     <string name="appdetail_med">Medium - %s:</string>
     <string name="appdetail_medium">Medium:</string>  
-    <string name="appdetail_numwakes">Number of times waking device:</string>  
-    <string name="appdetail_pct_power">\ \ \ \ \ \ \ \ % Power</string>
-    <string name="appdetail_pct_power_nospace">% Power</string>
-    <string name="appdetail_pct_time">% Time</string>
+    <string name="appdetail_numwakes">喚醒裝置次數：</string>  
+    <string name="appdetail_pct_power">\ \ \ \ \ \ \ \ % 電力</string>
+    <string name="appdetail_pct_power_nospace">% 電力</string>
+    <string name="appdetail_pct_time">% 時間</string>
     <string name="appdetail_phoneon">手機無線電開啟：</string>  
     <string name="appdetail_pwr_sysdata">系統數據電力：</string>  
     <string name="appdetail_received">接收：</string>  
@@ -422,19 +422,19 @@
     <string name="appdetail_kb">%.2f KB</string>   
     <string name="appdetail_totaltime">總計時間 (包含喚醒)：</string>
     <string name="appdetail_select_package">選取要管理的套件</string>
-    <string name="appdetail_heldawake_title">Held Awake / Doze</string>
-    <string name="appdetail_deep_sleep_label">Deep Sleep - CPU Freq 0:</string>
-    <string name="appdetail_doze_num_label">Doze Sessions:</string>
-    <string name="appdetail_doze_maint_label">Doze Maintenance:</string>
-    <string name="appdetail_discharge_screen_off_label">Discharge Screen Off:</string>
-    <string name="appdetail_avg_doze_label">Doze Time:</string>
-    <string name="appdetail_avg_doze_light_label">Doze Time (Light):</string>
-    <string name="appdetail_avg_doze_deep_label">Doze Time (Deep):</string>
-    <string name="appdetail_light_doze_header">Light</string>
-    <string name="appdetail_deep_doze_header">Deep</string>
-    <string name="appdetail_screen_off_label">% Screen Off:</string>
+    <string name="appdetail_heldawake_title">保持喚醒 / Doze</string>
+    <string name="appdetail_deep_sleep_label">深度睡眠 - CPU 頻率 0:</string>
+    <string name="appdetail_doze_num_label">Doze 工作階段：</string>
+    <string name="appdetail_doze_maint_label">Doze 維護：</string>
+    <string name="appdetail_discharge_screen_off_label">放電螢幕關閉：</string>
+    <string name="appdetail_avg_doze_label">Doze 時間：</string>
+    <string name="appdetail_avg_doze_light_label">Doze 時間 (輕度):</string>
+    <string name="appdetail_avg_doze_deep_label">Doze 時間 (深度):</string>
+    <string name="appdetail_light_doze_header">輕度</string>
+    <string name="appdetail_deep_doze_header">深度</string>
+    <string name="appdetail_screen_off_label">% 螢幕關閉：</string>
     <string name="appdetail_doze_count_value">%1$s (%2$d maint)</string>
-    <string name="appdetail_screendoze">Screen Doze:</string>
+    <string name="appdetail_screendoze">螢幕 Doze：</string>
 
     <!-- Change Log - actual change content isn't translated -->
     <string name="changelog_full_title">新增功能</string>
@@ -467,14 +467,14 @@
     <string name="notification_batthot_f">警告 - 電池過熱 (%.1f\u00B0F)</string>
     <string name="notification_batthot_c">警告 - 電池過熱 (%.1f\u00B0C)</string>
     <string name="notification_battovervoltage">警告 - 電池過電壓 (%.1f V)</string>
-    <string name="chart_active">Active</string>
-    <string name="chart_batt_history">Battery History (%1$s)</string>
-    <string name="chart_batt_percent">Battery %</string>
-    <string name="chart_charging">Charging</string>
+    <string name="chart_active">啟用</string>
+    <string name="chart_batt_history">電池歷史記錄 (%1$s)</string>
+    <string name="chart_batt_percent">電池 %</string>
+    <string name="chart_charging">充電中</string>
     <string name="chart_dim">Dim</string>
     <string name="chart_gps">GPS</string>
     <string name="chart_high">High</string>
-    <string name="chart_incall">In Call</string>
+    <string name="chart_incall">通話</string>
     <string name="chart_low">Low</string>
     <string name="chart_max">Max</string>
     <string name="chart_med">Med</string>
@@ -545,44 +545,44 @@
     <string name="translator_id">Hendra Priatna</string>
 
     <!-- Only Applicable to Paid/Pro Version (or marketing of said version) -->
-    <string name="appdetail_details_adjust_screen_market_bsd_title">Is Your Screen Too Bright?</string>
+    <string name="appdetail_details_adjust_screen_market_bsd_title">您的螢幕太亮了嗎？</string>
     <string name="appdetail_details_adjust_screen_market_bsd_msg">If you have trouble reading at night because your screen is too bright, check out GSam Screen Dimmer.  It lets you reduce your brightness settings below what is normally allowed, making for a much more pleasant night-time read!\n\nDon\'t worry, you won\'t see this message again.</string>
-    <string name="preferences_send_anon_stats_buypro_title">Go Pro!</string>
+    <string name="preferences_send_anon_stats_buypro_title">升級至專業版！</string>
     <string name="preferences_send_anon_stats_buypro_msg">The free version of the Battery Monitor will not let you turn off ads if you choose to not allow anonymous usage statistics.\n\nThe Pro version does not include ads, and will let you turn off anonymous usage statistics.</string>
     <string name="menu_seeotherapps">See Other Apps by GSam Labs</string>
-    <string name="menu_gopro">Upgrade To Pro</string>
-    <string name="menu_gopro_nook">Purchase</string>
-    <string name="menu_goprokindle">Upgrade To The Kindle Fire Edition</string>
-    <string name="nook_gopro_title">Trial Expired</string>
+    <string name="menu_gopro">升級至專業版</string>
+    <string name="menu_gopro_nook">購買</string>
+    <string name="menu_goprokindle">升級至 Kindle Fire Edition</string>
+    <string name="nook_gopro_title">試用已過期</string>
     <string name="nook_gopro_msg">Your trial of the battery monitor has expired.  Please purchase the full edition.  You can continue to use the battery monitor, however it will run in Free mode which removes a number of features and optimizations.</string>
-    <string name="nook_gopro_ok">Buy Full Version</string>
-    <string name="nook_gopro_cancel">Continue In Free Mode</string>
-    <string name="main_market_pro_title">Thank You For Using GSam Battery Monitor - Free</string>
+    <string name="nook_gopro_ok">購買完整版</string>
+    <string name="nook_gopro_cancel">以免費模式繼續</string>
+    <string name="main_market_pro_title">感謝您使用 GSam Battery Monitor - 免費版</string>
     <string name="main_market_pro_msg">Did you know there is a Tablet optimized professional version of GSam Battery Monitor?  Look for it in the market.\n\nDon\'t worry, you won\'t see this message again.</string>
     <string name="main_market_pro_msg_kindle">Did you know there is a Kindle Fire optimized version of GSam Battery Monitor?  Look for it in the Appstore.\n\nDon\'t worry, you won\'t see this message again.</string>
-    <string name="main_market_pro_ok">Take A Look</string>
-    <string name="main_market_pro_cancel">No Thank You</string>
-    <string name="main_invalid_license_title">Invalid License</string>
-    <string name="main_invalid_license_msg">Your license to this application appears to not be valid.  The Battery Monitor will continue to operate in it\'s Free mode.  If you feel this is a mistake, please check your purchase.</string>
-    <string name="main_invalid_license_ok">Check My Purchase</string>
-    <string name="main_invalid_license_cancel">Continue</string>    
-    <string name="about_invalidlicense">You do not have a valid license.  GSam Battery Monitor will continue to run in Free mode.  If you feel this is a mistake, please contact the developer with your Google Purchase ID</string>
+    <string name="main_market_pro_ok">看一下</string>
+    <string name="main_market_pro_cancel">不，謝謝</string>
+    <string name="main_invalid_license_title">無效的授權</string>
+    <string name="main_invalid_license_msg">您的應用程式授權似乎無效，電池監視器將繼續以免費模式作業。若您認為有錯誤，請檢查您的購買。</string>
+    <string name="main_invalid_license_ok">檢查我的購買</string>
+    <string name="main_invalid_license_cancel">繼續</string>    
+    <string name="about_invalidlicense">您沒有有效的授權，GSam Battery Monitor 將繼續以免費模式作業。若您認為有錯誤，請使用您的 Google 購買 ID 聯絡開發人員</string>
 
     <!-- Action Bar - From a third party library, most of these aren't used but are included for completeness. -->
-    <string name="abs__action_bar_home_description">Navigate home</string>
-    <string name="abs__action_bar_up_description">Navigate up</string>
-    <string name="abs__action_menu_overflow_description">More options</string>
-    <string name="abs__action_mode_done">Done</string>
+    <string name="abs__action_bar_home_description">導覽至首頁</string>
+    <string name="abs__action_bar_up_description">向上導覽</string>
+    <string name="abs__action_menu_overflow_description">更多選項</string>
+    <string name="abs__action_mode_done">完成</string>
     <!-- Title for a button to expand the list of activities in ActivityChooserView [CHAR LIMIT=25] -->
-    <string name="abs__activity_chooser_view_see_all">See all...</string>
+    <string name="abs__activity_chooser_view_see_all">查看全部…</string>
     <!-- Title default for a dialog showing possible activities in ActivityChooserView [CHAR LIMIT=25] -->
-    <string name="abs__activity_chooser_view_dialog_title_default">Select activity</string>
+    <string name="abs__activity_chooser_view_dialog_title_default">選取活動</string>
     <!-- Title for a dialog showing possible activities for sharing in ShareActionProvider [CHAR LIMIT=25] -->
-    <string name="abs__share_action_provider_share_with">Share with...</string>
+    <string name="abs__share_action_provider_share_with">分享至…</string>
     <!-- Description of the shwoing of a popup window with activities to choose from. [CHAR LIMIT=NONE] -->
-    <string name="abs__activitychooserview_choose_application">Choose an application</string>
+    <string name="abs__activitychooserview_choose_application">選擇應用程式</string>
     <!-- Description of the choose target button in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] -->
-    <string name="abs__shareactionprovider_share_with">Share with</string>
+    <string name="abs__shareactionprovider_share_with">分享至</string>
     <!-- Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] -->
-    <string name="abs__shareactionprovider_share_with_application">Share with <xliff:g id="application_name" example="Bluetooth">%s</xliff:g></string>
+    <string name="abs__shareactionprovider_share_with_application">透過 <xliff:g id="application_name" example="Bluetooth">%s</xliff:g> 分享</string>
 </resources>
