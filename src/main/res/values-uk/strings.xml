@@ -148,7 +148,7 @@
     <string name="stats_since_custom">從自訂參考資料</string>
     <string name="stats_since_screen_off">從螢幕關閉</string>
     <string name="stats_since_now">從現在</string>
-    <string name="stats_since_ago">從 %1s 前</string>
+    <string name="stats_since_ago">從 %1s前</string>
     <string name="pwer_profiles_mfg">製造商值</string>
     <string name="pwer_profiles_saved">目前儲存值</string>
 
@@ -234,8 +234,8 @@
     <string name="menu_enable_more_stats">啟用更多統計資料</string>
     <string name="main_share_intentchoosertitle">分享我的平均電池壽命\u2026</string>
     <string name="main_share_subject">平均電池壽命 - GSam Battery Monitor</string>
-    <string name="main_share_msg2">我的 %1$s %2$s 電池單次充電平均可使用 %3$s (%4$s 主動使用)。快來看看 GSam Battery Monitor：- http://bit.ly/uHT7Vy  #badassbattery</string>
-    <string name="main_share_msg"我的 %1$s %2$s 電池單次充電平均可使用 %3$s。快來看看 GSam Battery Monitor monitor - http://bit.ly/uHT7Vy #badassbattery</string>
+    <string name="main_share_msg2">我的 %1$s %2$s 的電池單次充電平均可使用 %3$s (主動使用時 %4$s)。快來看看 GSam Battery Monitor：- http://bit.ly/uHT7Vy  #badassbattery</string>
+    <string name="main_share_msg"我的 %1$s %2$s 的電池單次充電平均可使用 %3$s。快來看看 GSam Battery Monitor monitor - http://bit.ly/uHT7Vy #badassbattery</string>
     <string name="main_tablet_battusage_unplug">%1$s%% 已使用，於 %2$s (從上次拔除電源)</string>
     <string name="main_tablet_battusage_fullcharge">%1$s%% 已使用，於 %2$s (從上次完全充飽)</string>
     <string name="main_tablet_battusage_customref">%1$s%% 已使用，於 %2$s (從自訂參考資料)</string>
@@ -296,7 +296,7 @@
     <string name="adb_developer_title">啟用 USB 偵錯</string>
     <string name="adb_developer_text">若要在您的裝置上啟用 ADB，您需要先啟用 USB 偵錯。在所有工作完成後您可以停用偵錯。</string>
     <string name="adb_developer_text2">&lt;a href="">啟動設定 -> 關於&lt;/a>&lt;br></string>
-    <string name="adb_developer_text2_click">輕觸「版本號碼」選項七次，直到畫面上顯示「You are now a developer!」訊息</string>
+    <string name="adb_developer_text2_click">輕觸「版本號碼」選項七次，直到畫面上顯示「您現在已成為開發人員！」訊息</string>
     <string name="adb_developer_text3">&lt;a href="">啟動設定 -> 開發人員選項"&lt;/a>&lt;br></string>
     <string name="adb_developer_text3_click">選取「USB 偵錯」</string>
     <string name="adb_developer_error_not_developer">請先啟用開發人員選項</string>
@@ -353,11 +353,11 @@
     <string name="appdetail_days">%1$01d天 %2$01d時 %3$01d分</string>
     <string name="appdetail_days_twolevels">%1$01d天 %2$01d時</string>    
     <string name="appdetail_days_twolevels_decimal">%1$01d天 %2$s時</string>
-    <string name="appdetail_hours">%1$01dh %2$01d分 %3$01d秒</string>
+    <string name="appdetail_hours">%1$01d時 %2$01d分 %3$01d秒</string>
     <string name="appdetail_hours_twolevels">%1$01d時 %2$01d分</string>
     <string name="appdetail_hours_twolevels_decimal">%1$01d時 %2$s分</string>
     <string name="appdetail_details_button">管理</string>
-    <string name="appdetail_details_button_wakelocks">透過 Google 搜尋我</string>    
+    <string name="appdetail_details_button_wakelocks">透過 Google 搜尋</string>    
     <string name="appdetail_details_adjustpower">電力節省提示</string>
     <string name="appdetail_details_adjust_wifi">在 Wi-Fi 未使用時，使用上方的按鈕關閉 Wi-Fi。</string>
     <string name="appdetail_details_adjust_wifi_button">Wi-Fi 設定</string>
@@ -551,7 +551,7 @@
     <string name="menu_seeotherapps">查看 GSam Labs 的其他應用程式</string>
     <string name="menu_gopro">升級至專業版</string>
     <string name="menu_gopro_nook">購買</string>
-    <string name="menu_goprokindle">升級至 Kindle Fire Edition</string>
+    <string name="menu_goprokindle">升級至 Kindle Fire 版</string>
     <string name="nook_gopro_title">試用已過期</string>
     <string name="nook_gopro_msg">您的電池監視器試用版已過期，請購買完整版。您可以繼續使用電池監視器，但它將在免費模式下執行，這將刪除部分功能和最佳化內容。</string>
     <string name="nook_gopro_ok">購買完整版</string>
