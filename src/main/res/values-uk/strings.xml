@@ -22,7 +22,7 @@
     <string name="battery_alarm_notification_channel_desc">電池鬧鐘通知</string>
 
     <!-- Preferences -->
-    <string name="preferences_general_category">一般偏好</string>
+    <string name="preferences_general_category">一般偏好設定</string>
     <string name="preferences_theme_category">主題</string>
     <string name="preferences_alarm_category">鬧鐘</string>
     <string name="preferences_startup_service_title">裝置開機監視器</string>
@@ -51,13 +51,13 @@
     <string name="preferences_widget_show_timeleft_title">顯示剩餘時間</string>
     <string name="preferences_widget_show_temp_title">顯示溫度</string>
     <string name="preferences_widget_show_voltage_title">顯示電壓</string>
-    <string name="preferences_overlay_icon_sum">覆蓋內建電池圖示，位置、大小等皆可完全設定。</string>
-    <string name="preferences_overlay_icon_title">覆蓋標準電池圖示</string>
-    <string name="preferences_overlay_icon_configure_sum">設定覆蓋圖示大小、位置、背景色彩、亮度和其他內容。</string>
-    <string name="preferences_overlay_icon_configure_title">設定覆蓋圖示</string>
+    <string name="preferences_overlay_icon_sum">覆疊內建電池圖示，位置、大小等皆可完全設定。</string>
+    <string name="preferences_overlay_icon_title">覆疊標準電池圖示</string>
+    <string name="preferences_overlay_icon_configure_sum">設定覆疊圖示大小、位置、背景色彩、亮度和其他內容。</string>
+    <string name="preferences_overlay_icon_configure_title">設定覆疊圖示</string>
     <string name="preferences_overlay_icon_configure_invalid">無法啟動設定程序，請手動開啟圖示套件以進行設定。</string>
-    <string name="preferences_overlay_icon_notvalid_title">已選取的主題不支援覆蓋圖示</string>
-    <string name="preferences_overlay_icon_notvalid_msg">選取一個不同的主題，並再試一次。\n\n覆蓋圖示僅支援外部圖示套件。從「電池圖示主題」選單選取「取得更多主題」以尋找外部圖示套件。由 Gsam Labs 提供的所有圖示套件皆支援覆蓋圖示。第三方圖示套件可能不支援覆蓋。</string>
+    <string name="preferences_overlay_icon_notvalid_title">已選取的主題不支援覆疊圖示</string>
+    <string name="preferences_overlay_icon_notvalid_msg">選取一個不同的主題，並再試一次。\n\n覆疊圖示僅支援外部圖示套件。從「電池圖示主題」選單選取「取得更多主題」以尋找外部圖示套件。由 Gsam Labs 提供的所有圖示套件皆支援覆疊圖示。第三方圖示套件可能不支援覆疊。</string>
     <string name="preferences_show_charging_animation_title">充電時顯示動畫</string> 
     <string name="preferences_widget_color_screen_title">電池小工具設定</string>
     <string name="preferences_app_theme_title">使用深色應用程式主題</string>
@@ -242,7 +242,7 @@
     <string name="main_tablet_active_usage">平均 (%1$02d:%2$02d:%3$02d)</string>
     <string name="main_tablet_standby_usage">待命 (%1$02d:%2$02d:%3$02d)</string>    
     <string name="rate_me_title">評分 GSam Battery Monitor</string>
-    <string name="rate_me_msg">您喜歡 GSam Battery Monitor 嗎？請花時間給這個應用程式一個好評！\n\n別擔心 - 您不會被再次要求。</string>
+    <string name="rate_me_msg">您喜歡 GSam Battery Monitor 嗎？請花時間給這個應用程式一個好評！\n\n不要擔心 - 您不會被再次要求。</string>
     <string name="rate_me_ok">為它評分！</string>
     <string name="main_header_type">類型</string>
     <string name="main_header_time">時間</string>
@@ -257,13 +257,13 @@
     <string name="main_avg_chargetime_label">充電時間:</string>
     <string name="main_avg_chargetime_text">%1$s AC / %2$s USB</string>
     <string name="main_kitkat_nostats_title2">使用 Root 隨附應用程式啟用更多統計資料</string>
-    <string name="main_kitkat_nostats_helper_needed2">You can enable access to more statistics if you
-        have Root access by installing the GSam Root Companion app.  This gives you access to detailed
-        wakelock, sensor usage, and many other statistics.\n
-        \nIf you do not have Root, or do not know what this means, don\'t worry about it.  GSam will
-        function just fine without it.\n
-        \nSee <a href="http://goo.gl/WBXJ6o">http://goo.gl/WBXJ6o</a> for more information.</string>
-    <string name="main_kitkat_nostats_helper_not_installed_correctly">The Root Companion application is not installed correctly in /system/priv-app.  Please launch the application and verify it is correctly installed.</string>
+    <string name="main_kitkat_nostats_helper_needed2">若您有 Root 存取權，您可以透過安裝 GSam Root 隨附程式
+        啟用更多的統計資料。這將使您能夠取得最詳細的喚醒、感應器使用以及許多其他統計資料。
+        喚醒鎖定、感應器使用量和許多其他統計資料。\n
+        \n若您沒有 Root 存取權，或您不知道這是什麼，不要擔心。GSam 無須 Root
+        也能正常運作。\n
+        \n查看 <a href="http://goo.gl/WBXJ6o">http://goo.gl/WBXJ6o</a> 以取得更多資訊。</string>
+    <string name="main_kitkat_nostats_helper_not_installed_correctly">Root 隨附程式並未正確安裝在 /system/priv-app。請啟動此應用程式並驗證其是否正確安裝。</string>
 	<string name="main_kitkat_nostats_launch_companion">啟動 Root 隨附程式</string>
 	<string name="main_kitkat_nostats_install_companion">安裝 Root 隨附程式</string>
 	<string name="main_phone_permission_title">授予電話權限</string>
@@ -304,7 +304,7 @@
     <string name="adb_developer_button">沒問題，我已啟用 USB 偵錯！</string>
     <string name="adb_connect_title">連線並驗證 ADB</string>
     <string name="adb_connect_text">
-        &#8212; 透過 USB 連線您的手機&lt;br/>&lt;br/>
+        &#8212; 透過 USB 連線至您的手機&lt;br/>&lt;br/>
         &#8212; 確保您已在手機的彈出式訊息中選取 &lt;i>&lt;b>允許 USB 偵錯&lt;/b>&lt;/i>&lt;br/>&lt;br/>
         &#8212; 透過在您的電腦上開啟一個命令殼層以驗證 ADB 是否已經啟用並執行 &lt;i>&lt;b>adb devices&lt;/b>&lt;/i>
     </string>
@@ -545,20 +545,20 @@
 
     <!-- Only Applicable to Paid/Pro Version (or marketing of said version) -->
     <string name="appdetail_details_adjust_screen_market_bsd_title">您的螢幕太亮了嗎？</string>
-    <string name="appdetail_details_adjust_screen_market_bsd_msg">If you have trouble reading at night because your screen is too bright, check out GSam Screen Dimmer.  It lets you reduce your brightness settings below what is normally allowed, making for a much more pleasant night-time read!\n\nDon\'t worry, you won\'t see this message again.</string>
+    <string name="appdetail_details_adjust_screen_market_bsd_msg">若您因為螢幕太亮而在夜間閱讀時遇到困難，請看一看 GSam Dimer。它可以讓您將亮度降低至通常允許的設定範圍以下，從而使夜間閱讀更加愉快！不要擔心，您將不會再看到這條訊息。</string>
     <string name="preferences_send_anon_stats_buypro_title">升級至專業版！</string>
-    <string name="preferences_send_anon_stats_buypro_msg">The free version of the Battery Monitor will not let you turn off ads if you choose to not allow anonymous usage statistics.\n\nThe Pro version does not include ads, and will let you turn off anonymous usage statistics.</string>
+    <string name="preferences_send_anon_stats_buypro_msg">若您選擇不允許匿名使用量統計資料，免費版的電池監視器將不會讓您關閉廣告。\n\n專業版不包含廣告，並可讓您關閉匿名使用量統計資料。</string>
     <string name="menu_seeotherapps">查看 GSam Labs 的其他應用程式</string>
     <string name="menu_gopro">升級至專業版</string>
     <string name="menu_gopro_nook">購買</string>
     <string name="menu_goprokindle">升級至 Kindle Fire Edition</string>
     <string name="nook_gopro_title">試用已過期</string>
-    <string name="nook_gopro_msg">Your trial of the battery monitor has expired.  Please purchase the full edition.  You can continue to use the battery monitor, however it will run in Free mode which removes a number of features and optimizations.</string>
+    <string name="nook_gopro_msg">您的電池監視器試用版已過期，請購買完整版。您可以繼續使用電池監視器，但它將在免費模式下執行，這將刪除部分功能和最佳化內容。</string>
     <string name="nook_gopro_ok">購買完整版</string>
     <string name="nook_gopro_cancel">以免費模式繼續</string>
     <string name="main_market_pro_title">感謝您使用 GSam Battery Monitor - 免費版</string>
-    <string name="main_market_pro_msg">Did you know there is a Tablet optimized professional version of GSam Battery Monitor?  Look for it in the market.\n\nDon\'t worry, you won\'t see this message again.</string>
-    <string name="main_market_pro_msg_kindle">Did you know there is a Kindle Fire optimized version of GSam Battery Monitor?  Look for it in the Appstore.\n\nDon\'t worry, you won\'t see this message again.</string>
+    <string name="main_market_pro_msg">您知道 GSam Battery Monitor 有一個專為平板電腦最佳化的專業版本嗎？您可以在市集中尋找它。\n\n不要擔心，您將不會再看到這條訊息。</string>
+    <string name="main_market_pro_msg_kindle">您知道 GSam Battery Monitor 有一個專為 Kindle Fire 最佳化的專業版本嗎？您可以在 Appstore 中尋找它。\n\n不要擔心，您將不會再看到這條訊息。</string>
     <string name="main_market_pro_ok">看一下</string>
     <string name="main_market_pro_cancel">不，謝謝</string>
     <string name="main_invalid_license_title">無效的授權</string>
@@ -568,7 +568,7 @@
     <string name="about_invalidlicense">您沒有有效的授權，GSam Battery Monitor 將繼續以免費模式作業。若您認為有錯誤，請使用您的 Google 購買 ID 聯絡開發人員</string>
 
     <!-- Action Bar - From a third party library, most of these aren't used but are included for completeness. -->
-    <string name="abs__action_bar_home_description">導覽至首頁</string>
+    <string name="abs__action_bar_home_description">向首頁導覽</string>
     <string name="abs__action_bar_up_description">向上導覽</string>
     <string name="abs__action_menu_overflow_description">更多選項</string>
     <string name="abs__action_mode_done">完成</string>
