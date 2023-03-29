@@ -174,7 +174,7 @@
     <string name="procsuckmon_unacounted_cpu_label">合併應用程式 CPU</string>
     <string name="procsuckmon_unacounted_cpu_title">這是什麼意思？</string>
     <string name="procsuckmon_unacounted_cpu_text">
-        考慮透過「選單」->「更多」->「啟用更多統計資料」以避免此訊息Consider enabling more stats to avoid this message via Menu -> More -> Enable More Stats&lt;BR/>&lt;BR/>
+        考慮透過「選單」->「更多」->「啟用更多統計資料」以避免此訊息&lt;BR/>&lt;BR/>
         Android N 和更高版本不允許應用程式收集其他應用程式的 CPU 使用率，因此 GSam 無法區分哪個應用程式對系統 CPU 使用率負責。
         不同的是，GSam 把所有的 CPU 使用率都存放在這一個貯體中，所以很明顯，應用程式正在消耗資源。GSam 仍然能夠追蹤其他消耗電池的因素，如網路使用量等。
     </string>
@@ -185,13 +185,13 @@
     <string name="main_calculating">正在計算\u2026</string>
     <string name="main_full">充飽</string>
     <string name="main_timeremaining">剩餘時間</string>
-    <string name="main_timetofull2">To Full:</string>
-    <string name="main_timetofull_tablet2">To Full Charge:</string>
+    <string name="main_timetofull2">至充飽：</string>
+    <string name="main_timetofull_tablet2">至完全充飽：</string>
     <string name="main_timeleft2">平均:</string>
     <string name="main_timeleft_tablet2">平均使用量:</string>
-    <string name="main_timeleft_rolling2">Last %1$sm:</string>
-    <string name="main_timeleft_rolling_tablet2">Last %1$sm Usage:</string>
-    <string name="main_talktime2">Talk Time:</string>
+    <string name="main_timeleft_rolling2">過去 %1$s分：</string>
+    <string name="main_timeleft_rolling_tablet2">過去 %1$s分使用量：</string>
+    <string name="main_talktime2">通話時間：</string>
     <string name="main_temp">溫度: </string>
     <string name="main_voltage">電壓: </string>
     <string name="main_health">類型 / 健康: </string>
@@ -234,11 +234,11 @@
     <string name="menu_enable_more_stats">啟用更多統計資料</string>
     <string name="main_share_intentchoosertitle">分享我的平均電池壽命\u2026</string>
     <string name="main_share_subject">平均電池壽命 - GSam Battery Monitor</string>
-    <string name="main_share_msg2">My %1$s %2$s battery averages %3$s (%4$s active usage) on a single charge. Check out GSam Battery Monitor: - http://bit.ly/uHT7Vy  #badassbattery</string>
-    <string name="main_share_msg">My %1$s %2$s battery averages %3$s on a single charge. Check out GSam Battery Monitor monitor - http://bit.ly/uHT7Vy #badassbattery</string>
-    <string name="main_tablet_battusage_unplug">%1$s%% Used Over %2$s (Since Last Unplugged)</string>
-    <string name="main_tablet_battusage_fullcharge">%1$s%% Used Over %2$s (Since Full Charge)</string>
-    <string name="main_tablet_battusage_customref">%1$s%% Used Over %2$s (Since Custom Reference)</string>
+    <string name="main_share_msg2">我的 %1$s %2$s 電池單次充電平均可使用 %3$s (%4$s 主動使用)。快來看看 GSam Battery Monitor：- http://bit.ly/uHT7Vy  #badassbattery</string>
+    <string name="main_share_msg"我的 %1$s %2$s 電池單次充電平均可使用 %3$s。快來看看 GSam Battery Monitor monitor - http://bit.ly/uHT7Vy #badassbattery</string>
+    <string name="main_tablet_battusage_unplug">%1$s%% 已使用，於 %2$s (從上次拔除電源)</string>
+    <string name="main_tablet_battusage_fullcharge">%1$s%% 已使用，於 %2$s (從上次完全充飽)</string>
+    <string name="main_tablet_battusage_customref">%1$s%% 已使用，於 %2$s (從自訂參考資料)</string>
     <string name="main_tablet_active_usage">平均 (%1$02d:%2$02d:%3$02d)</string>
     <string name="main_tablet_standby_usage">待命 (%1$02d:%2$02d:%3$02d)</string>    
     <string name="rate_me_title">評分 GSam Battery Monitor</string>
@@ -267,21 +267,21 @@
 	<string name="main_kitkat_nostats_launch_companion">啟動 Root 隨附程式</string>
 	<string name="main_kitkat_nostats_install_companion">安裝 Root 隨附程式</string>
 	<string name="main_phone_permission_title">授予電話權限</string>
-	<string name="main_phone_permission_text">GSam can track the power usage of your phone by monitoring its state and signal strength.&lt;BR/>&lt;BR/>Granting access to the &lt;B>Phone (make and manage phone calls)&lt;/B> permission will result in more accurate statistics."</string>
-    <string name="main_stats_corrupt_title">Unable to retrieve stats</string>
-    <string name="main_stats_currupt_text">An error occurred while retrieving battery statistics.  If this error continues, try &lt;li>&amp;nbsp;Restarting your phone, or &lt;/li> &lt;li>&amp;nbsp;Charge your phone to 100%&lt;/li>This is an issue with the core Android services, and not GSam Battery Monitor.</string>
+	<string name="main_phone_permission_text">GSam 可以透過監視手機的狀態和訊號強度以追蹤手機的電力使用量。&lt;BR/>&lt;BR/>授予&lt;B>電話 (進行和管理通話)&lt;/B> 存取權將會得到更加精確的統計資料。"</string>
+    <string name="main_stats_corrupt_title">無法擷取統計資料</string>
+    <string name="main_stats_currupt_text">擷取電池統計資料時發生錯誤。錯誤持續發生，請嘗試&lt;li>&amp;nbsp;重新啟動您的手機，或&lt;/li> &lt;li>&amp;nbsp;將您的手機充電至 100%&lt;/li>這是核心 Android 服務的問題，而非 GSam Battery Monitor 所致。</string>
     <string name="main_notification_permission_title">取得通知</string>
-    <string name="main_notification_permission_text">GSam can use notifications to show you the current state of the battery.&lt;BR/>&lt;BR/>Once you grant access, you can control notifications in GSam Preferences.</string>
+    <string name="main_notification_permission_text">GSam 可以使用通知以向您顯示電池的目前狀態。&lt;BR/>&lt;BR/>一旦您授予存取權，您就可以在 GSam 偏好設定中控制通知。</string>
 
     <!-- ADB Connect Wizard -->
-    <string name="adb_start_text">GSam can access more stats if you give it the special BATTERY_STATS permission.  You just need to enable it once!</string>
+    <string name="adb_start_text">GSam 可以存取更多統計資料，需要您授予特殊 BATTERY_STATS 權限。您僅需一次啟用！</string>
     <string name="adb_start_text2">
-        &#8212; &lt;b>Have Root?&lt;/b>  Let GSam add the needed permission automatically by running the
-        following command: &lt;i>pm grant %1$s android.permission.BATTERY_STATS&lt;/i>
+        &#8212; &lt;b>Have Root?&lt;/b>  讓 GSam 透過執行以下命令自動新增
+        所需的權限：&lt;i>pm grant %1$s android.permission.BATTERY_STATS&lt;/i>
     </string>
-    <string name="adb_start_button_root">Grant Access With Root</string>
+    <string name="adb_start_button_root">授予 Root 存取權</string>
     <string name="adb_start_text3">
-        &#8212; &lt;b>No Root?&lt;/b>  Connect to a computer and use the ADB command to enable access.
+        &#8212; &lt;b>沒有 Root？&lt;/b>  連線至電腦並使用 ADB 命令啟用存取權。
     </string>
     <string name="adb_start_button">告訴我如何做</string>
     <string name="adb_get_title">取得 ADB</string>
@@ -393,7 +393,7 @@
     <string name="appdetail_phoneon">手機無線電開啟：</string>  
     <string name="appdetail_pwr_sysdata">系統數據電力：</string>  
     <string name="appdetail_received">接收：</string>  
-    <string name="appdetail_received_wifimobile">接收 (WiFi / 行動網路):</string> 
+    <string name="appdetail_received_wifimobile">接收 (WiFi / 行動網路)：</string> 
     <string name="appdetail_scanning">掃描訊號：</string>  
     <string name="appdetail_screen_brightness">螢幕亮度：</string>  
     <string name="appdetail_screenon">螢幕開啟：</string>  
@@ -410,9 +410,9 @@
     <string name="appdetail_sensor_rotvector">旋轉向量：</string>  
     <string name="appdetail_sensor_temp">溫度：</string>  
     <string name="appdetail_sent">傳送：</string>  
-    <string name="appdetail_sent_wifimobile">傳送 (WiFi / 行動網路):</string>  
+    <string name="appdetail_sent_wifimobile">傳送 (WiFi / 行動網路)：</string>  
     <string name="appdetail_signal_stregth">訊號強度：</string>
-    <string name="appdetail_total_appssystem">總計 (應用程式 / System):</string> 
+    <string name="appdetail_total_appssystem">總計 (應用程式 / 系統)：</string> 
     <string name="appdetail_video">視訊開啟：</string>  
     <string name="appdetail_wakelocks">喚醒鎖定數目：</string>  
     <string name="appdetail_wifiactive">Wifi 啟用：</string>  
