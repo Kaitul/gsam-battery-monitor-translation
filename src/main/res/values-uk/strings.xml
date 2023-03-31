@@ -79,7 +79,7 @@
     <string name="preferences_stats_since_title">檢視統計資料 - 從</string>
     <string name="preferences_stats_since_summary">檢視從上次拔除電源或上次完全充飽的統計資料</string>
     <string name="preferences_power_profiles_edit_summary">自訂您的電力設定檔，自訂值僅在自訂設定檔啟用時使用。</string>
-    <string name="profedit_title">修改下方數值，以變更您的剩餘時間和應用程式 Sucker 時間的計算方式</string>
+    <string name="profedit_title">修改下方數值，以變更您的剩餘時間和應用程式吸塵器時間的計算方式</string>
     <string name="profedit_load_basedon">重新載入資料依據：</string>
     <string name="profedit_save">儲存</string>
     <string name="profedit_cancel">取消</string>
@@ -157,7 +157,7 @@
     <string name="process_suck_mon_android_system">系統 (%1s)</string>
     <string name="process_suck_mon_header">%0$.1f%% 的電量已耗用：</string>
     <string name="process_suck_mon_nodata">沒有可用的資料。在上一個裝置電力週期中，沒有應用程式消耗了指定資源。</string>
-    <string name="process_suck_mon_title_prefix">應用程式 Sucker - %1$s</string>
+    <string name="process_suck_mon_title_prefix">應用程式吸塵器 - %1$s</string>
     <!-- Suffix gets 'stats_since_X' replaced -->
     <string name="process_suck_mon_title_suffix">%1$s (%2$s)</string>
     <string name="procsuckmon_viewby_pwr">檢視使用電力百分比</string>
@@ -213,7 +213,7 @@
     <string name="main_idle_label">保持喚醒：</string>
     <string name="main_bluetooth_label">藍牙：</string>
     <string name="main_app_usage_label">應用程式使用量：</string>
-    <string name="main_app_usage_button">應用程式 Sucker</string>
+    <string name="main_app_usage_button">應用程式吸塵器</string>
     <string name="main_android_batt_usage_button">電池使用 - 內建</string>    
     <string name="main_android_batt_usage_failed">無法啟動內建電池使用畫面…</string>
     <string name="main_tools_menu">更多</string>
