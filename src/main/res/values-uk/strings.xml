@@ -379,7 +379,7 @@
     <string name="appdetail_data_enabled">數據啟用：</string>  
     <string name="appdetail_dim">最暗：</string>  
     <string name="appdetail_discharge_whileonoff">放電開/關：</string>  
-    <string name="appdetail_gps">GPS:</string>  
+    <string name="appdetail_gps">GPS：</string>  
     <string name="appdetail_high">高 - %s：</string>
     <string name="appdetail_keepawake">保持喚醒：</string>  
     <string name="appdetail_light">較亮：</string>  
