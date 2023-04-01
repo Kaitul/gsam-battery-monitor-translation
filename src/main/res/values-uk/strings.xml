@@ -6,9 +6,9 @@
     <!-- Notification & Header messages -->
     <string name="battery_status_time_left">剩餘時間：%1$02d:%2$02d (平均)，%3$02d:%4$02d (過去 %5$sm)</string>
     <string name="battery_status_time_left_no_running">剩餘時間：%1$02d:%2$02d</string>
-    <string name="battery_status_time_left_unknown">剩餘時間：正在計算 - 請稍後</string>
+    <string name="battery_status_time_left_unknown">剩餘時間：計算中 - 請稍後</string>
     <string name="battery_status_time_to_full">充飽時間：%1$02d:%2$02d</string>
-    <string name="battery_status_time_to_full_unknown">充飽時間：正在計算 - 請稍後</string>
+    <string name="battery_status_time_to_full_unknown">充飽時間：計算中 - 請稍後</string>
     <string name="battery_status_title">電池狀態 - %1$s%% (%2$s)</string>
     <string name="battery_status_title_charging">電池狀態 - %1$s%% (%2$s) - 充電中</string>
     <string name="battery_status_title_full">電池狀態 - %1$s%% (%2$s) - 已充飽</string>
@@ -182,7 +182,7 @@
     <!-- Main screen -->
     <string name="main_history_button">歷史記錄</string>
     <string name="main_preferences_button">偏好設定</string>
-    <string name="main_calculating">正在計算\u2026</string>
+    <string name="main_calculating">計算中\u2026</string>
     <string name="main_full">充飽</string>
     <string name="main_timeremaining">剩餘時間</string>
     <string name="main_timetofull2">至充飽：</string>
