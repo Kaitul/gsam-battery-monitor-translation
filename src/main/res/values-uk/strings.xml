@@ -138,7 +138,7 @@
     <string name="icon_themes_plainnum">僅數字</string>
     <string name="icon_themes_default">系統預設</string>   
     <string name="icon_themes_getmore">取得更多主題</string>
-    <string name="time_left_calc_dontshow">Don\'t Show Scaled Time</string>
+    <string name="time_left_calc_dontshow">不要顯示</string>
     <string name="time_left_calc_last5">過去 5 分鐘</string>
     <string name="time_left_calc_last15">過去 15 分鐘</string>
     <string name="time_left_calc_last30">過去 30 分鐘</string>
