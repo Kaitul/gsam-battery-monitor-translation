@@ -93,7 +93,7 @@
     <string name="preferences_clear_history_stats_toast">所有電池統計資料已被清除\u2026</string>
     <string name="preferences_clear_history_stats_error_toast">無法重設統計資料 - 此裝置可能不支援此功能\u2026</string>
     <string name="preferences_custom_ref">電池歷史記錄將基於現在 (或拔除裝置電源時) 建立的參考點。這可以用於確定從這個特定的時間點 (而非從上次拔除電源或最後一次充電) 開始，有什麼東西用了您的電池。</string>
-    <string name="preferences_custom_ref_plugged">此裝置目前正充電中 - 您只能在裝置拔除電源時建立一個自訂參考。</string>
+    <string name="preferences_custom_ref_plugged">此裝置目前正充電中 - 您只能在裝置拔除電源時建立一個自訂參考資料。</string>
     <string name="preferences_send_anon_stats_title">允許匿名使用量統計資料</string>
     <string name="preferences_send_anon_stats_sum">允許傳送匿名使用量統計資料，將不會傳送任何可識別的資料或私人資料。</string>
     <string name="preferences_show_ads_title">顯示廣告</string>
