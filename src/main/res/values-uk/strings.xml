@@ -422,19 +422,19 @@
     <string name="appdetail_kb">%.2f KB</string>   
     <string name="appdetail_totaltime">總計時間 (包含喚醒)：</string>
     <string name="appdetail_select_package">選取要管理的套件</string>
-    <string name="appdetail_heldawake_title">保持喚醒 / Doze</string>
+    <string name="appdetail_heldawake_title">保持喚醒 / 打盹</string>
     <string name="appdetail_deep_sleep_label">深度睡眠 - CPU 頻率 0：</string>
-    <string name="appdetail_doze_num_label">Doze 工作階段：</string>
-    <string name="appdetail_doze_maint_label">Doze 維護：</string>
+    <string name="appdetail_doze_num_label">打盹工作階段：</string>
+    <string name="appdetail_doze_maint_label">打盹維護：</string>
     <string name="appdetail_discharge_screen_off_label">放電螢幕關閉：</string>
-    <string name="appdetail_avg_doze_label">Doze 時間：</string>
-    <string name="appdetail_avg_doze_light_label">Doze 時間 (輕度)：</string>
-    <string name="appdetail_avg_doze_deep_label">Doze 時間 (深度)：</string>
+    <string name="appdetail_avg_doze_label">打盹時間：</string>
+    <string name="appdetail_avg_doze_light_label">打盹時間 (輕度)：</string>
+    <string name="appdetail_avg_doze_deep_label">打盹時間 (深度)：</string>
     <string name="appdetail_light_doze_header">輕度</string>
     <string name="appdetail_deep_doze_header">深度</string>
     <string name="appdetail_screen_off_label">% 螢幕關閉：</string>
     <string name="appdetail_doze_count_value">%1$s (%2$d maint)</string>
-    <string name="appdetail_screendoze">螢幕 Doze：</string>
+    <string name="appdetail_screendoze">螢幕打盹：</string>
 
     <!-- Change Log - actual change content isn't translated -->
     <string name="changelog_full_title">新增功能</string>
@@ -487,7 +487,7 @@
     <string name="chart_wifi">WiFi</string>
     <string name="chart_cpu_mhz">CPU 平均頻率 (GHz)</string>
     <string name="chart_cpu_util">CPU 使用率 %</string>
-    <string name="chart_idle">Doze</string>
+    <string name="chart_idle">打盹</string>
     <!-- AOD == Always On Display, but needs to be < 8 characters to fit -->
     <string name="chart_screen_doze">AOD</string>
     
