@@ -241,7 +241,7 @@
     <string name="main_tablet_battusage_customref">%1$s%% 已使用，於 %2$s (從自訂參考資料)</string>
     <string name="main_tablet_active_usage">平均 (%1$02d:%2$02d:%3$02d)</string>
     <string name="main_tablet_standby_usage">待命 (%1$02d:%2$02d:%3$02d)</string>    
-    <string name="rate_me_title">評分 GSam Battery Monitor</string>
+    <string name="rate_me_title">為 GSam Battery Monitor 評分</string>
     <string name="rate_me_msg">您喜歡 GSam Battery Monitor 嗎？請花時間給這個應用程式一個好評！\n\n不要擔心 - 您不會被再次要求。</string>
     <string name="rate_me_ok">為它評分！</string>
     <string name="main_header_type">類型</string>
@@ -526,7 +526,7 @@
     <string name="appdetail_details_adjust_screen_market_bsd_msg">若您因為螢幕太亮而在夜間閱讀時遇到困難，請看一看 GSam Dimer。它可以讓您將亮度降低至通常允許的設定範圍以下，從而使夜間閱讀更加愉快！不要擔心，您將不會再看到這條訊息。</string>
     <string name="preferences_send_anon_stats_buypro_title">升級至專業版！</string>
     <string name="preferences_send_anon_stats_buypro_msg">若您選擇不允許匿名使用量統計資料，免費版的電池監視器將不會讓您關閉廣告。\n\n專業版不包含廣告，並可讓您關閉匿名使用量統計資料。</string>
-    <string name="menu_seeotherapps">查看 GSam Labs 的其他應用程式</string>
+    <string name="menu_seeotherapps">GSam Labs 的其他應用程式</string>
     <string name="menu_gopro">升級至專業版</string>
     <string name="menu_gopro_nook">購買</string>
     <string name="menu_goprokindle">升級至 Kindle Fire 版</string>
