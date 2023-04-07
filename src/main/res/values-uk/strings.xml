@@ -4,7 +4,7 @@
     <string name="app_name">GSam Battery Monitor</string>
 
     <!-- Notification & Header messages -->
-    <string name="battery_status_time_left">剩餘時間：%1$02d:%2$02d (平均)，%3$02d:%4$02d (過去 %5$sm)</string>
+    <string name="battery_status_time_left">剩餘時間：%1$02d:%2$02d (平均)，%3$02d:%4$02d (過去 %5$s 分)</string>
     <string name="battery_status_time_left_no_running">剩餘時間：%1$02d:%2$02d</string>
     <string name="battery_status_time_left_unknown">剩餘時間：計算中 - 請稍後</string>
     <string name="battery_status_time_to_full">充飽時間：%1$02d:%2$02d</string>
@@ -75,7 +75,7 @@
     <string name="preferences_power_per_percent_reset">重設</string>
     <string name="preferences_time_per_percent_title">重設放電時間歷史記錄</string>
     <string name="preferences_time_per_percent_unkown">未知</string>
-    <string name="preferences_time_per_percent_summary">重設您的裝置持續一個完整電池週期的平均時間的計算值。目前為 %1$s (%2$sm / 百分比，計算於 %3$01d 百分比之上)</string>
+    <string name="preferences_time_per_percent_summary">重設您的裝置持續一個完整電池週期的平均時間的計算值。目前為 %1$s (%2$s 分 / 百分比，計算於 %3$01d 百分比之上)</string>
     <string name="preferences_stats_since_title">檢視統計資料 - 從</string>
     <string name="preferences_stats_since_summary">檢視從上次拔除電源或上次完全充飽的統計資料</string>
     <string name="preferences_power_profiles_edit_summary">自訂您的電力設定檔，自訂值僅在自訂設定檔啟用時使用。</string>
@@ -433,7 +433,7 @@
     <string name="appdetail_light_doze_header">輕度</string>
     <string name="appdetail_deep_doze_header">深度</string>
     <string name="appdetail_screen_off_label">% 螢幕關閉：</string>
-    <string name="appdetail_doze_count_value">%1$s (%2$d maint)</string>
+    <string name="appdetail_doze_count_value">%1$s (%2$d 維護)</string>
     <string name="appdetail_screendoze">螢幕打盹：</string>
 
     <!-- Change Log - actual change content isn't translated -->
