@@ -209,7 +209,7 @@
     <string name="main_phone_on_label">電話：</string>
     <string name="main_screen_on_label">螢幕：</string>
     <string name="main_phone_radio_on_label">無線電：</string>
-    <string name="main_wifi_active_label">WiFi 啟用：</string>
+    <string name="main_wifi_active_label">Wi-Fi 啟用：</string>
     <string name="main_idle_label">保持喚醒：</string>
     <string name="main_bluetooth_label">藍牙：</string>
     <string name="main_app_usage_label">應用程式使用量：</string>
@@ -339,7 +339,7 @@
     </string>
     <!-- Detail Screens (App Sucker & Wifi/Radio/Screen Usage) -->
     <string name="process_suck_mon_title_prefix_app">應用程式詳細資料</string>
-    <string name="process_suck_mon_title_prefix_wifi">WiFi 詳細資料</string>
+    <string name="process_suck_mon_title_prefix_wifi">Wi-Fi 詳細資料</string>
     <string name="process_suck_mon_title_prefix_radio">無線電詳細資料</string>
     <string name="process_suck_mon_title_prefix_screen">螢幕詳細資料</string>
     <string name="process_suck_mon_title_prefix_wakelock">喚醒鎖定詳細資料</string>
@@ -393,7 +393,7 @@
     <string name="appdetail_phoneon">手機無線電開啟：</string>  
     <string name="appdetail_pwr_sysdata">系統數據電力：</string>  
     <string name="appdetail_received">接收：</string>  
-    <string name="appdetail_received_wifimobile">接收 (WiFi / 行動網路)：</string> 
+    <string name="appdetail_received_wifimobile">接收 (Wi-Fi / 行動網路)：</string> 
     <string name="appdetail_scanning">掃描訊號：</string>  
     <string name="appdetail_screen_brightness">螢幕亮度：</string>  
     <string name="appdetail_screenon">螢幕開啟：</string>  
@@ -410,13 +410,13 @@
     <string name="appdetail_sensor_rotvector">旋轉向量：</string>  
     <string name="appdetail_sensor_temp">溫度：</string>  
     <string name="appdetail_sent">傳送：</string>  
-    <string name="appdetail_sent_wifimobile">傳送 (WiFi / 行動網路)：</string>  
+    <string name="appdetail_sent_wifimobile">傳送 (Wi-Fi / 行動網路)：</string>  
     <string name="appdetail_signal_stregth">訊號強度：</string>
     <string name="appdetail_total_appssystem">總計 (應用程式 / 系統)：</string> 
     <string name="appdetail_video">視訊開啟：</string>  
     <string name="appdetail_wakelocks">喚醒鎖定數目：</string>  
-    <string name="appdetail_wifiactive">Wifi 啟用：</string>  
-    <string name="appdetail_wifion">Wifi 開啟：</string>      
+    <string name="appdetail_wifiactive">Wi-Fi 啟用：</string>  
+    <string name="appdetail_wifion">Wi-Fi 開啟：</string>      
     <string name="appdetail_bytes">%d 位元組</string>
     <string name="appdetail_mb">%.2f MB</string>           
     <string name="appdetail_kb">%.2f KB</string>   
@@ -484,7 +484,7 @@
     <string name="chart_tempf">電池溫度 \u00B0F</string>
     <string name="chart_timeformat">HH:mm</string>
     <string name="chart_unknown">未知</string>
-    <string name="chart_wifi">WiFi</string>
+    <string name="chart_wifi">Wi-Fi</string>
     <string name="chart_cpu_mhz">CPU 平均頻率 (GHz)</string>
     <string name="chart_cpu_util">CPU 使用率 %</string>
     <string name="chart_idle">打盹</string>
